@@ -1,0 +1,111 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 32, 32]],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Emote": {
+			"frames": [
+				[0, 0, 32, 32],
+				[32, 0, 32, 32]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"SMB1": {
+			"choices": [
+				{"source": "ToadNPC.png",
+				"rect": [0, 0, 64, 32]},
+				{"source": "ToadNPC.png",
+				"rect": [0, 32, 64, 32]},
+				{"source": "ToadNPC.png",
+				"rect": [0, 64, 64, 32]},
+				{"source": "ToadNPC.png",
+				"rect": [0, 96, 64, 32]},
+				{"source": "ToadNPC.png",
+				"rect": [64, 0, 64, 32]},
+				{"source": "ToadNPC.png",
+				"rect": [64, 32, 64, 32]},
+				{"source": "ToadNPC.png",
+				"rect": [64, 64, 64, 32]}
+			]
+		},
+		"SMBLL": {
+			"choices": [
+				{"source": "ToadNPCLL.png",
+				"rect": [0, 0, 64, 32]},
+				{"source": "ToadNPCLL.png",
+				"rect": [0, 32, 64, 32]},
+				{"source": "ToadNPCLL.png",
+				"rect": [0, 64, 64, 32]},
+				{"source": "ToadNPCLL.png",
+				"rect": [0, 96, 64, 32]},
+				{"source": "ToadNPCLL.png",
+				"rect": [64, 0, 64, 32]},
+				{"source": "ToadNPCLL.png",
+				"rect": [64, 32, 64, 32]},
+				{"source": "ToadNPCLL.png",
+				"rect": [64, 64, 64, 32]}
+			]
+		},
+		"SMBS": {
+			"choices": [
+				{"source": "ToadNPCSP.png",
+				"rect": [0, 0, 64, 32]},
+				{"source": "ToadNPCSP.png",
+				"rect": [0, 32, 64, 32]},
+				{"source": "ToadNPCSP.png",
+				"rect": [0, 64, 64, 32]},
+				{"source": "ToadNPCSP.png",
+				"rect": [0, 96, 64, 32]},
+				{"source": "ToadNPCSP.png",
+				"rect": [64, 0, 64, 32]},
+				{"source": "ToadNPCSP.png",
+				"rect": [64, 32, 64, 32]},
+				{"source": "ToadNPCSP.png",
+				"rect": [64, 64, 64, 32]}
+			]
+		},
+		"SMBANN": {
+			"World1": {
+				"source": "DiscoNPCs.png",
+				"rect": [0, 0, 32, 32]
+			},
+			"World2": {
+				"source": "DiscoNPCs.png",
+				"rect": [32, 0, 32, 32]
+			},
+			"World3": {
+				"source": "DiscoNPCs.png",
+				"rect": [64, 0, 32, 32]
+			},
+			"World4": {
+				"source": "DiscoNPCs.png",
+				"rect": [96, 0, 32, 32]
+			},
+			"World5": {
+				"source": "DiscoNPCs.png",
+				"rect": [128, 0, 32, 32]
+			},
+			"World6": {
+				"source": "DiscoNPCs.png",
+				"rect": [160, 0, 32, 32]
+			},
+			"World7": {
+				"choices": [
+						{"source": "DiscoNPCs.png",
+						"rect": [192, 0, 32, 32]},
+						{"source": "DiscoNPCs.png",
+						"rect": [224, 0, 32, 32]}
+				]
+			},
+			"World8": {
+				"source": "DiscoNPCs.png",
+				"rect": [0, 0, 32, 32]
+			}
+		}
+	}
+}

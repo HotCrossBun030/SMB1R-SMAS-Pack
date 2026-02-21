@@ -1,0 +1,18 @@
+{
+	"variations": {
+		"default": {
+			"source": "1UP.png",
+			"rect": [0, 0, 16, 16]
+		},
+		"Underground": {
+			"source": "1UP.png",
+			"rect": [16, 0, 16, 16]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {"link": "Underground"},
+		"CastleWater": {"link": "Underground"},
+		"Space": {"link": "Underground"},
+		"Volcano": {"link": "Underground"},
+		"Bonus": {"link": "Underground"}
+	}
+}

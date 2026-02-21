@@ -1,0 +1,19 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16]
+			],
+			"speed": 8.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "StaticCoin.png", 
+			"rect": [0, 0, 48, 16]
+		}
+	}
+}

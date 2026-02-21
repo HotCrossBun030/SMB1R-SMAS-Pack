@@ -1,0 +1,29 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 8, 8]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "TitleScreenStars.png", 
+			"rect": [0, 0, 8, 8]
+		},
+		"Desert": {
+			"source": "TitleScreenStars.png",
+			"rect": [8, 0, 8, 8]
+		},
+		"Snow": {
+			"source": "TitleScreenStars.png",
+			"rect": [16, 0, 8, 8]
+		},
+		"Jungle": {
+			"source": "TitleScreenStars.png",
+			"rect": [24, 0, 8, 8]
+		}
+	}
+}

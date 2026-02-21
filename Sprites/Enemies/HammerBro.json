@@ -1,0 +1,65 @@
+{
+	"animations": {
+		"Hammer": {
+			"frames": [
+				[
+					32.0,
+					0.0,
+					16.0,
+					24.0
+				],
+				[
+					48.0,
+					0.0,
+					16.0,
+					24.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Idle": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					24.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					24.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "HammerBro.png",
+			"rect": [0, 0, 64, 24]
+		},
+		"Underground": {
+			"source": "HammerBro.png",
+			"rect": [64, 0, 64, 24]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {"link": "Underground"},
+		"CastleWater": {"link": "Underground"},
+		"Space": {
+			"source": "HammerBro.png",
+			"rect": [128, 0, 64, 24]
+		},
+		"Volcano": {
+			"source": "HammerBro.png",
+			"rect": [0, 24, 64, 24]
+		},
+		"Bonus": {
+			"source": "HammerBro.png",
+			"rect": [64, 24, 64, 24]
+		}
+	}
+}

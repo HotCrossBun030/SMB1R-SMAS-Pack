@@ -1,0 +1,71 @@
+{
+	"animations": {
+		"Jump": {
+			"frames": [
+				[0, 0, 16, 16]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Walk": {
+			"frames": [
+				[16, 0, 16, 16],
+				[32, 0, 16, 16]
+			],
+			"speed": 10.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "MontyMole.png",
+			"rect": [0, 0, 48, 16]
+		},
+		"Underground": {
+			"source": "MontyMole.png",
+			"rect": [48, 0, 48, 16]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {
+			"source": "MontyMole.png",
+			"rect": [96, 0, 48, 16]
+		},
+		"CastleWater": {"link": "Castle"},
+		"Desert": {
+			"source": "MontyMole.png",
+			"rect": [144, 0, 48, 16]
+		},
+		"Jungle": {
+			"source": "MontyMole.png",
+			"rect": [0, 16, 48, 16]
+		},
+		"Snow": {
+			"source": "MontyMole.png",
+			"rect": [48, 16, 48, 16]
+		},
+		"Volcano": {
+			"source": "MontyMole.png",
+			"rect": [96, 16, 48, 16]
+		},
+		"Autumn": {
+			"source": "MontyMole.png",
+			"rect": [144, 16, 48, 16]
+		},
+		"Beach": {
+			"source": "MontyMole.png",
+			"rect": [0, 32, 48, 16]
+		},
+		"Mountain": {
+			"source": "MontyMole.png",
+			"rect": [48, 32, 48, 16]
+		},
+		"Space": {
+			"source": "MontyMole.png",
+			"rect": [96, 32, 48, 16]
+		},
+		"Bonus": {
+			"source": "MontyMole.png",
+			"rect": [144, 32, 48, 16]
+		}
+	}
+}

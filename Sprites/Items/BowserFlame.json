@@ -1,0 +1,19 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 24, 16],
+				[24, 0, 24, 16],
+				[48, 0, 24, 16]
+			],
+			"speed": 7.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "BowserFlame.png",
+			"rect": [0, 0, 92, 16]
+		}
+	}
+}

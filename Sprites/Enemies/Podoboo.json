@@ -1,0 +1,43 @@
+{
+	"properties":
+	{
+		"play_sfx": true
+	},
+	"animations": {
+		"default": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					32.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 8.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "Podoboo.png",
+			"rect": [
+				0.0,
+				0.0,
+				48.0,
+				16.0
+			]
+		}
+	}
+}

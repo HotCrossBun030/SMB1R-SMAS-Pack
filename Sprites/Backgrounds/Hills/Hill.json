@@ -1,0 +1,97 @@
+{
+	"properties": {
+		"primary_layer_size": [512, 512]
+	},
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 512, 512]],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"Day": {"source": "Overworld.png"},
+			"Night": {
+				"config:Overworld Night": {
+					"Original": {"source": "BasicNight.png"},			
+					"Custom": {"source": "OverworldNight.png"}
+				}
+			}
+		},
+		"Desert": {
+			"Day": {"source": "Desert.png"},
+			"Night": {"source": "DesertNight.png"}
+		},
+		"Underground": {
+			"source": "Underground.png",
+			"animation_overrides": {
+				"default": {
+					"frames": [
+						[0, 0, 512, 512],
+						[512, 0, 512, 512], 
+						[1024, 0, 512, 512], 
+						[1536, 0, 512, 512], 
+						[1536, 0, 512, 512], 
+						[1024, 0, 512, 512], 
+						[0, 0, 512, 512], 
+						[512, 0, 512, 512]
+					],
+					"speed": 5.0,
+					"loop": true
+				}
+			}
+		},
+		"Castle": {"source": "Castle.png"},
+		"GhostHouse": {"source": "GhostHouse.png"},
+		"Snow": {
+			"Day": {"source": "Snow.png"},
+			"Night": {
+				"config:Snow Night": {
+					"Original": {"source": "BasicNight.png"},			
+					"Custom": {"source": "SnowNight.png"}
+				}
+			}
+		},
+		"Jungle": {
+			"Day": {"source": "Jungle.png"},
+			"Night": {"source": "JungleNight.png"}
+		},
+		"Autumn": {
+			"Day": {"source": "Autumn.png"},
+			"Night": {"source": "AutumnNight.png"}
+		},
+		"Pipeland": {
+			"Day": {"source": "Pipeland.png"},
+			"Night": {"source": "PipelandNight.png"}
+		},
+		"Volcano": {"source": "Volcano.png"},
+		"Mountain": {
+			"Day": {"source": "Mountain.png"},
+			"Night": {"source": "MountainNight.png"}
+		},
+		"Skyland": {
+			"Day": {"source": "Sky.png"},
+			"Night": {"source": "SkyNight.png"}
+		},
+		"Beach": {
+			"Day": {"source": "BeachHills.png"},
+			"Night": {"source": "BeachHillsNight.png"}
+		},
+		"Underwater": {
+			"Day": {"source": "Underwater.png"},
+			"Night": {"source": "UnderwaterNight.png"}
+		},
+		"Garden": {
+			"Day": {"source": "GardenHill.png"},
+			"Night": {"source": "GardenNight.png"}
+		},
+		"CastleWater": {
+			"Day": {"source": "CastleWater.png"},
+			"Night": {"source": "CastleWaterNight.png"}
+		},
+		"Space": {"source": "Space.png"},
+		"Airship": {"link": "Skyland"},
+		"Bonus": {"source": "Bonus.png"}
+	}
+}

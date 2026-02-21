@@ -1,0 +1,30 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 16, 16]],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {"source": "Overworld.png", "rect": [64, 0, 16, 16]},
+		"Underground": {"source": "Underground.png", "rect": [64, 0, 16, 16]},
+		"Desert": {"source": "Desert.png", "rect": [64, 0, 16, 16]},
+		"Snow": {"source": "Snow.png", "rect": [64, 0, 16, 16]},
+		"Jungle": {"source": "Jungle.png", "rect": [64, 0, 16, 16]},
+		"Beach": {"source": "Beach.png", "rect": [64, 0, 16, 16]},
+		"Garden": {"source": "Garden.png", "rect": [64, 0, 16, 16]},
+		"Mountain": {"source": "Mountain.png", "rect": [64, 0, 16, 16]},
+		"Skyland": {"source": "Sky.png", "rect": [64, 0, 16, 16]},
+		"Autumn": {"source": "Autumn.png", "rect": [64, 0, 16, 16]},
+		"Pipeland": {"source": "PipeLand.png", "rect": [64, 0, 16, 16]},
+		"Space": {"source": "Space.png", "rect": [64, 0, 16, 16]},
+		"Underwater": {"source": "Underwater.png", "rect": [64, 0, 16, 16]},
+		"Volcano": {"source": "Volcano.png", "rect": [64, 0, 16, 16]},
+		"GhostHouse": {"source": "GhostHouse.png", "rect": [64, 0, 16, 16]},
+		"Castle": {"source": "Castle.png", "rect": [64, 0, 16, 16]},
+		"CastleWater": {"source": "CastleWater.png", "rect": [64, 0, 16, 16]},
+		"Airship": {"source": "Airship.png", "rect": [64, 0, 16, 16]},
+		"Bonus": {"source": "Bonus.png", "rect": [64, 0, 16, 16] }
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"variations": {
+		"default": {
+			"Day": {"source": "Bush.png"},
+			"Night": {"source": "BushNight.png"}
+		},
+		"Jungle": {
+			"Day": {"source": "JungleBush.png"},
+			"Night": {"source": "JungleBushNight.png"}
+		},
+		"Snow": {
+			"Day": {"source": "SnowBush.png"},
+			"Night": {"source": "SnowBushNight.png"}
+		},
+		"Autumn": {
+			"Day": {"source": "AutumnBush.png"},
+			"Night": {"source": "AutumnBushNight.png"}
+		},
+		"Castle": {
+			"Day": {"source": "CastleBush.png"},
+			"Night": {"source": "CastleBushNight.png"}
+		},
+		"CastleWater": {
+			"Day": {"source": "CastleWaterBush.png"},
+			"Night": {"source": "CastleWaterBushNight.png"}
+		},
+		"Airship": {
+			"Day": {"source": "AirshipBush.png"},
+			"Night": {"source": "AirshipBushNight.png"}
+		},
+		"Volcano": {"source": "VolcanoBush.png"},
+		"Underground": {"source": "UndergroundBush.png"},
+		"Space": {"source": "SpaceBush.png"},
+		"Garden": {
+			"Day": {"source": "GardenBush.png"},
+			"Night": {"source": "GardenBushNight.png"}
+		},
+		"Desert": {
+			"Day": {"source": "DesertBush.png"},
+			"Night": {"source": "DesertBushNight.png"}
+		},
+		"Underwater": {
+			"Day": {"source": "UnderwaterBush.png"},
+			"Night": {"source": "UnderwaterBushNight.png"}
+		},
+		"GhostHouse": {"source": "GhostHouseBush.png"},
+		"Bonus": {
+			"Day": {"source": "BonusBush.png"},
+			"Night": {"source": "BonusBushNight.png"}
+		}
+	}
+}

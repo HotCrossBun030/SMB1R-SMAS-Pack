@@ -1,0 +1,23 @@
+{
+	"variations": {
+		"default": {"source": "Overworld.png"},
+		"Underground": {"source": "Underground.png"},
+		"Desert": {"source": "Desert.png"},
+		"Snow": {"source": "Snow.png"},
+		"Jungle": {"source": "Jungle.png"},
+		"Beach": {"source": "Beach.png"},
+		"Garden": {"source": "Garden.png"},
+		"Mountain": {"source": "Mountain.png"},
+		"Skyland": {"source": "Sky.png"},
+		"Autumn": {"source": "Autumn.png"},
+		"Pipeland": {"source": "PipeLand.png"},
+		"Space": {"source": "Space.png"},
+		"Underwater": {"source": "Underwater.png"},
+		"Volcano": {"source": "Volcano.png"},
+		"GhostHouse": {"source": "GhostHouse.png"},
+		"Castle": {"source": "Castle.png"},
+		"CastleWater": {"source": "CastleWater.png"},
+		"Airship": {"source": "Airship.png"},
+		"Bonus": {"source": "Bonus.png"}
+	}
+}

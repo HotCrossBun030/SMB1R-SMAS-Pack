@@ -1,0 +1,5 @@
+If you have a character that doesn't match with the filename here, re-name the folder name and it should then work!
+
+For instance; if Your Yellow Toad character folder is called "YellowToad" instead of "Yellow Toad"
+
+Re-name "Yellow Toad" to "YellowToad"!!!

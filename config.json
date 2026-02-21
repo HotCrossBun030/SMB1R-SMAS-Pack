@@ -1,0 +1,16 @@
+{
+	"options": {
+		"Overworld Night": "Custom",
+		"Snow Night": "Custom"
+	},
+	"value_keys": {
+		"Overworld Night": [
+			"Original",
+			"Custom"
+		],
+		"Snow Night": [
+			"Original",
+			"Custom"
+		]
+	}
+}

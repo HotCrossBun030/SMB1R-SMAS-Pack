@@ -1,0 +1,42 @@
+{
+	"properties":
+	{
+		"use_sprite": true,
+		"show_walls": false
+	},
+	"variations":
+	{
+		"default":
+		{
+			"source": "EndingFinalCastleSprite.png",
+			"rect": [0, 0, 320, 176]
+		},
+		"Underground":
+		{
+			"source": "EndingFinalCastleSprite.png",
+			"rect": [320, 0, 320, 176]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle":
+		{
+			"source": "EndingFinalCastleSprite.png",
+			"rect": [0, 176, 320, 176]
+		},
+		"CastleWater": {"link": "Castle"},
+		"Desert":
+		{
+			"source": "EndingFinalCastleSprite.png",
+			"rect": [320, 176, 320, 176]
+		},
+		"Snow":
+		{
+			"source": "EndingFinalCastleSprite.png",
+			"rect": [0, 352, 320, 176]
+		},
+		"Jungle":
+		{
+			"source": "EndingFinalCastleSprite.png",
+			"rect": [320, 352, 320, 176]
+		}
+	}
+}

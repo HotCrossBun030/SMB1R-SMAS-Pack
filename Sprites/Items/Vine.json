@@ -1,0 +1,52 @@
+{
+	"variations": {
+		"default": {
+			"source": "Vine.png",
+			"rect": [
+				0.0,
+				0.0,
+				16.0,
+				32.0
+			]
+		},
+		"Underground": {
+			"source": "Vine.png",
+			"rect": [
+				16.0,
+				0.0,
+				16.0,
+				32.0
+			]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {"link": "Underground"},
+		"CastleWater": {"link": "Underground"},
+		"Space": {
+			"source": "Vine.png",
+			"rect": [
+				32.0,
+				0.0,
+				16.0,
+				32.0
+			]
+		},
+		"Volcano": {
+			"source": "Vine.png",
+			"rect": [
+				0.0,
+				32.0,
+				16.0,
+				32.0
+			]
+		},
+		"Bonus": {
+			"source": "Vine.png",
+			"rect": [
+				16.0,
+				32.0,
+				16.0,
+				32.0
+			]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+If you saw this and went "What the heck is this?", then this is to explain exactly what it's for.
+
+There's certain assets that were made during the pack's development that couldn't be added in-game for one reason or another.
+
+So as you could probably guess, this folder contains all of those assets.
+
+Multi-layered backgrounds, Animated BGO, and stuff of the sort is located here for your needs.

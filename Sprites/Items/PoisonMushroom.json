@@ -1,0 +1,8 @@
+{
+	"variations": {
+		"default": {
+			"source": "PoisonMushroom.png",
+			"rect": [0, 0, 16, 16]
+		}
+	}
+}
