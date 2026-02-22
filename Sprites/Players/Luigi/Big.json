@@ -189,6 +189,15 @@
 			"frames": [[32, 79, 32, 40]],
 			"speed": 1.0,
 			"loop": true
+		},
+		"PoseDoor": {
+			"frames": [
+				[0, 80, 32, 40],
+				[32, 80, 32, 40],
+				[32, 80, 32, 40]
+			],
+			"speed": 1.0,
+			"loop": false
 		}
 	},
 	"variations": {
