@@ -21,33 +21,29 @@
 		"GhostHouse": {"link": "Underground"},
 		"Castle": {"link": "Underground"},
 		"CastleWater": {"link": "Underground"},
-		"Jungle": {
+		"Volcano": {
 			"source": "BuzzyBeetle.png",
 			"rect": [224, 0, 32, 16]
 		},
-		"Volcano": {
+		"Autumn": {
 			"source": "BuzzyBeetle.png",
 			"rect": [336, 0, 32, 16]
 		},
-		"Autumn": {
+		"Beach": {
 			"source": "BuzzyBeetle.png",
 			"rect": [0, 16, 32, 16]
 		},
-		"Beach": {
+		"Mountain": {
 			"source": "BuzzyBeetle.png",
 			"rect": [112, 16, 32, 16]
 		},
-		"Mountain": {
+		"Space": {
 			"source": "BuzzyBeetle.png",
 			"rect": [224, 16, 32, 16]
 		},
-		"Space": {
-			"source": "BuzzyBeetle.png",
-			"rect": [336, 16, 32, 16]
-		},
 		"Bonus": {
 			"source": "BuzzyBeetle.png",
-			"rect": [0, 32, 32, 16]
+			"rect": [336, 16, 32, 16]
 		}
 	}
 }
