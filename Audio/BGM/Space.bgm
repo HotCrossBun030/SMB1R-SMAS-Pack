@@ -1,10 +1,10 @@
 {
     "Normal": {
-        "source": "Space.mp3",
+        "source": "Space.ogg",
         "loop": 0.0
     },
     "Hurry": {
-        "source": "SpaceHurry.mp3",
+        "source": "SpaceHurry.ogg",
         "loop": 0.0
     }
 }

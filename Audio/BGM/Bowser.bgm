@@ -1,10 +1,10 @@
 {
     "Normal": {
-        "source": "Bowser.mp3",
+        "source": "Bowser.ogg",
         "loop": 3.117
     },
     "Hurry": {
-        "source": "BowserHurry.mp3",
+        "source": "BowserHurry.ogg",
         "loop": 2.383
     }
 }
