@@ -1,112 +1,96 @@
 {
 	"animations": {
-		"Attack": {
-			"frames": [
-				[128, 41, 32, 40]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Climb": {
-			"frames": [
-				[64, 41, 32, 40],
-				[96, 41, 32, 40]
-			],
-			"speed": 5.0,
+		"Idle": {
+			"frames": [[0, 0, 32, 48]],
+			"speed": 5,
 			"loop": true
 		},
 		"Crouch": {
-			"frames": [
-				[32, 0, 32, 40]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Die": {
-			"frames": [
-				[192, 41, 32, 40]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Grow": {
-			"frames": [
-				[160, 41, 32, 40],
-				[0, 0, 32, 40]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Idle": {
-			"frames": [
-				[0, 0, 32, 40]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Jump": {
-			"frames": [
-				[192, 0, 32, 40]
-			],
-			"speed": 5.0,
+			"frames": [[32, 0, 32, 48]],
+			"speed": 5,
 			"loop": true
 		},
 		"Move": {
 			"frames": [
-				[64, 0, 32, 40],
-				[96, 0, 32, 40],
-				[128, 0, 32, 40]
+				[64, 0, 32, 48],
+				[96, 0, 32, 48],
+				[128, 0, 32, 48]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		},
 		"Skid": {
-			"frames": [
-				[160, 0, 32, 40]
-			],
-			"speed": 5.0,
+			"frames": [[160, 0, 32, 48]],
+			"speed": 5,
+			"loop": true
+		},
+		"Jump": {
+			"frames": [[192, 0, 32, 48]],
+			"speed": 5,
 			"loop": true
 		},
 		"SwimIdle": {
-			"frames": [
-				[224, 0, 32, 40]
-			],
-			"speed": 10.0,
+			"frames": [[224, 0, 32, 48]],
+			"speed": 5,
 			"loop": true
 		},
 		"SwimUp": {
 			"frames": [
-				[224, 0, 32, 40],
-				[0, 41, 32, 40],
-				[32, 41, 32, 40]
+				[224, 0, 32, 48],
+				[0, 48, 32, 48],
+				[32, 48, 32, 48]
 			],
 			"speed": 12.5,
 			"loop": true
 		},
-		"Pipe": {
+		"Climb": {
 			"frames": [
-				[224, 41, 32, 40]
+				[64, 48, 32, 48],
+				[96, 48, 32, 48]
 			],
-			"speed": 5.0,
+			"speed": 5,
+			"loop": true
+		},
+		"Attack": {
+			"frames": [[128, 48, 32, 48]],
+			"speed": 5,
+			"loop": true
+		},
+		"Die": {
+			"frames": [[192, 48, 32, 48]],
+			"speed": 5,
+			"loop": true
+		},
+		"Grow": {
+			"frames": [
+				[160, 48, 32, 48],
+				[0, 0, 32, 48]
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"Pipe": {
+			"frames": [[224, 48, 32, 48]],
+			"speed": 5,
 			"loop": true
 		},
 		"FaceForward": {
-			"frames": [[0, 79, 32, 40]],
-			"speed": 1.0,
+			"frames": [[0, 96, 32, 48]],
+			"speed": 5,
 			"loop": true
 		},
 		"Pose": {
-			"frames": [[32, 79, 32, 40]],
-			"speed": 1.0,
+			"frames": [[32, 96, 32, 48]],
+			"speed": 5,
 			"loop": true
 		},
 		"PoseDoor": {
 			"frames": [
-				[0, 80, 32, 40],
-				[32, 80, 32, 40],
-				[32, 80, 32, 40]
+				[0, 96, 32, 48],
+				[32, 96, 32, 48],
+				[32, 96, 32, 48]
 			],
-			"speed": 1.0,
+			"speed": 1,
 			"loop": false
 		}
 	},
@@ -115,11 +99,11 @@
 			"config:Luigi Sprites": {
 				"Original": {
 					"source": "BigOG.png",
-					"rect": [0, 0, 256, 120]
+					"rect": [0, 0, 256, 144]
 				}, 
 				"Custom": {
 					"source": "Big.png",
-					"rect": [0, 0, 256, 120]
+					"rect": [0, 0, 256, 144]
 				}
 			}
 		}

@@ -1,52 +1,13 @@
 {
 	"animations": {
-		"Attack": {
-			"frames": [],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Climb": {
-			"frames": [
-				[64, 32, 32, 32],
-				[96, 32, 32, 32]
-			],
-			"speed": 5.0,
+		"Idle": {
+			"frames": [[0, 0, 32, 32]],
+			"speed": 5,
 			"loop": true
 		},
 		"Crouch": {
-			"frames": [
-				[32, 0, 32, 32]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Die": {
-			"frames": [
-				[128, 32, 32, 32]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Grow": {
-			"frames": [
-				[160, 32, 32, 32],
-				[0, 0, 32, 32]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Idle": {
-			"frames": [
-				[0, 0, 32, 32]
-			],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Jump": {
-			"frames": [
-				[192, 0, 32, 32]
-			],
-			"speed": 5.0,
+			"frames": [[32, 0, 32, 32]],
+			"speed": 5,
 			"loop": true
 		},
 		"Move": {
@@ -55,21 +16,22 @@
 				[128, 0, 32, 32],
 				[96, 0, 32, 32]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		},
 		"Skid": {
-			"frames": [
-				[160, 0, 32, 32]
-			],
-			"speed": 5.0,
+			"frames": [[160, 0, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Jump": {
+			"frames": [[192, 0, 32, 32]],
+			"speed": 5,
 			"loop": true
 		},
 		"SwimIdle": {
-			"frames": [
-				[224, 0, 32, 32]
-			],
-			"speed": 10.0,
+			"frames": [[224, 0, 32, 32]],
+			"speed": 5,
 			"loop": true
 		},
 		"SwimUp": {
@@ -81,21 +43,40 @@
 			"speed": 12.5,
 			"loop": true
 		},
-		"Pipe": {
+		"Climb": {
 			"frames": [
-				[192, 32, 32, 32]
+				[64, 32, 32, 32],
+				[96, 32, 32, 32]
 			],
-			"speed": 5.0,
+			"speed": 5,
+			"loop": true
+		},
+		"Die": {
+			"frames": [[128, 32, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Grow": {
+			"frames": [
+				[160, 32, 32, 32],
+				[0, 0, 32, 32]
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"Pipe": {
+			"frames": [[192, 32, 32, 32]],
+			"speed": 5,
 			"loop": true
 		},
 		"FaceForward": {
 			"frames": [[224, 32, 32, 32]],
-			"speed": 1.0,
+			"speed": 5,
 			"loop": true
 		},
 		"Pose": {
 			"frames": [[0, 64, 32, 32]],
-			"speed": 1.0,
+			"speed": 5,
 			"loop": true
 		},
 		"PoseDoor": {
@@ -104,7 +85,7 @@
 				[0, 64, 32, 32],
 				[0, 64, 32, 32]
 			],
-			"speed": 1.0,
+			"speed": 1,
 			"loop": false
 		}
 	},
