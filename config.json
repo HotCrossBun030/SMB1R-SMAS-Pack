@@ -1,9 +1,14 @@
 {
 	"options": {
+		"Luigi Sprites": "Custom",
 		"Overworld Night": "Custom",
 		"Snow Night": "Custom"
 	},
 	"value_keys": {
+		"Luigi Sprites": [
+			"Original",
+			"Custom"
+		],
 		"Overworld Night": [
 			"Original",
 			"Custom"
