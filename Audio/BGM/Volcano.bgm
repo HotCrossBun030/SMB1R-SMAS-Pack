@@ -1,10 +1,10 @@
 {
     "Normal": {
-        "source": "Volcano.mp3",
-        "loop": 1.867
+        "source": "Volcano.ogg",
+        "loop": 8.073
     },
     "Hurry": {
-        "source": "VolcanoHurry.mp3",
+        "source": "VolcanoHurry.ogg",
         "loop": 1.334
     }
 }
