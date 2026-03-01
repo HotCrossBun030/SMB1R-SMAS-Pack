@@ -1,0 +1,128 @@
+{
+	"animations": {
+		"AimDown": {
+			"frames": [
+				[
+					32.0,
+					32.0,
+					32.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"AimUp": {
+			"frames": [
+				[
+					32.0,
+					0.0,
+					32.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"ShootDown": {
+			"frames": [
+				[
+					0.0,
+					32.0,
+					32.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"ShootUp": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					32.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"IdleUp": {
+			"frames": [[32, 0, 32, 32], [0, 0, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"IdleDown": {
+			"frames": [[32, 32, 32, 32], [0, 32, 32, 32]],
+			"speed": 5.0,
+			"loop": false
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [
+				0.0,
+				0.0,
+				64.0,
+				64.0
+			]
+		},
+		"Underground": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [
+				64.0,
+				0.0,
+				64.0,
+				64.0
+			]
+		},
+		"Castle": {"link": "Underground"},
+		"Underwater": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [
+				128.0,
+				0.0,
+				64.0,
+				64.0
+			]
+		},
+		"Snow": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [
+				0.0,
+				64.0,
+				64.0,
+				64.0
+			]
+		},
+		"Space": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [
+				64.0,
+				64.0,
+				64.0,
+				64.0
+			]
+		},
+		"Volcano": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [
+				128.0,
+				64.0,
+				64.0,
+				64.0
+			]
+		},
+		"Bonus": {
+			"source": "FirePiranhaPlant.png",
+			"rect": [
+				0.0,
+				128.0,
+				64.0,
+				64.0
+			]
+		}
+	}
+}

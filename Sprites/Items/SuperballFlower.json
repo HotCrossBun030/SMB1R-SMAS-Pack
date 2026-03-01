@@ -1,0 +1,73 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					32.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					48.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 15.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"SMB1": {"source": "SuperballFlower.png", "rect": [0.0,0.0,64.0,16.0]},
+			"SMBS": {"source": "SuperballFlowerSP.png", "rect": [0.0,0.0,64.0,16.0]}
+		},
+		"Underground": {
+			"SMB1": {"source": "SuperballFlower.png", "rect": [0.0,16.0,64.0,16.0]},
+			"SMBS": {"source": "SuperballFlowerSP.png", "rect": [0.0,16.0,64.0,16.0]}
+		},
+		"Castle": {
+			"link": "Underground"
+		},
+		"GhostHouse": {
+			"link": "Underground"
+		},
+		"Underwater": {
+			"SMB1": {"source": "SuperballFlower.png", "rect": [0.0,32.0,64.0,16.0]},
+			"SMBS": {"source": "SuperballFlowerSP.png", "rect": [0.0,32.0,64.0,16.0]}
+		},
+		"CastleWater": {
+			"link": "Underwater"
+		},
+		"Snow": {
+			"SMB1": {"source": "SuperballFlower.png", "rect": [0.0,48.0,64.0,16.0]},
+			"SMBS": {"source": "SuperballFlowerSP.png", "rect": [0.0,48.0,64.0,16.0]}
+		},
+		"Space": {
+			"SMB1": {"source": "SuperballFlower.png", "rect": [0.0,64.0,64.0,16.0]},
+			"SMBS": {"source": "SuperballFlowerSP.png", "rect": [0.0,64.0,64.0,16.0]}
+		},
+		"Volcano": {
+			"SMB1": {"source": "SuperballFlower.png", "rect": [0.0,80.0,64.0,16.0]},
+			"SMBS": {"source": "SuperballFlowerSP.png", "rect": [0.0,80.0,64.0,16.0]}
+		},
+		"Bonus": {
+			"SMB1": {"source": "SuperballFlower.png", "rect": [0.0,96.0,64.0,16.0]},
+			"SMBS": {"source": "SuperballFlowerSP.png", "rect": [0.0,96.0,64.0,16.0]}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"properties": {
+		"can_rotate": true
+	},
+	"variations": {
+		"default": {
+			"source": "BowserJrFireball.png"
+		}
+	}
+}
