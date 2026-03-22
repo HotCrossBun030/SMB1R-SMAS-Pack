@@ -1,5 +1,19 @@
 {
-	"variations": {
-		"default": {"source": "CloudOverlay.png"}
-	}
+    "variations": {
+        "default": {
+            "source": "CloudOverlay.png",
+            "animations": {
+                "default": {
+                    "frames": [
+                        [0, 0, 512, 512],
+                        [512, 0, 512, 512], 
+                        [1024, 0, 512, 512],
+                        [512, 0, 512, 512]
+                    ],
+                    "speed": 5.0,
+                    "loop": true
+                }
+            }
+        }
+    }
 }

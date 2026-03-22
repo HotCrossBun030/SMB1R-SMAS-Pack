@@ -7,6 +7,150 @@
 			"Day": {"source": "Trees.png"},
 			"Night": {"source": "NightTrees.png"}
 		},
+		"Overworld": {
+			"World1": {
+				"Level1": {
+					"Day": {"source": "Trees.png"},
+					"Night": {"source": "NightTrees.png"}
+				},
+				"Level2": {
+					"Day": {
+						"source": "Waterfall.png",
+						"animations": {
+							"default": {
+								"frames": [
+									[0, 0, 512, 512],
+									[512, 0, 512, 512],
+									[1024, 0, 512, 512],
+									[1536, 0, 512, 512],
+									[2048, 0, 512, 512],
+									[2560, 0, 512, 512],
+									[3072, 0, 512, 512],
+									[3584, 0, 512, 512]
+								],
+								"speed": 7.0,
+								"loop": true
+							}
+						}
+					},
+					"Night": {
+						"source": "WaterfallNight.png",
+						"animations": {
+							"default": {
+								"frames": [
+									[0, 0, 512, 512],
+									[512, 0, 512, 512],
+									[1024, 0, 512, 512],
+									[1536, 0, 512, 512],
+									[2048, 0, 512, 512],
+									[2560, 0, 512, 512],
+									[3072, 0, 512, 512],
+									[3584, 0, 512, 512]
+								],
+								"speed": 7.0,
+								"loop": true
+							}
+						}
+					}
+				},
+				"Level3": {
+					"Day": {
+						"source": "Waterfall.png",
+						"animations": {
+							"default": {
+								"frames": [
+									[0, 0, 512, 512],
+									[512, 0, 512, 512],
+									[1024, 0, 512, 512],
+									[1536, 0, 512, 512],
+									[2048, 0, 512, 512],
+									[2560, 0, 512, 512],
+									[3072, 0, 512, 512],
+									[3584, 0, 512, 512]
+								],
+								"speed": 7.0,
+								"loop": true
+							}
+						}
+					},
+					"Night": {
+						"source": "WaterfallNight.png",
+						"animations": {
+							"default": {
+								"frames": [
+									[0, 0, 512, 512],
+									[512, 0, 512, 512],
+									[1024, 0, 512, 512],
+									[1536, 0, 512, 512],
+									[2048, 0, 512, 512],
+									[2560, 0, 512, 512],
+									[3072, 0, 512, 512],
+									[3584, 0, 512, 512]
+								],
+								"speed": 7.0,
+								"loop": true
+							}
+						}
+					}
+				},
+				"Level4": {
+					"Day": {"source": "Trees.png"},
+					"Night": {"source": "NightTrees.png"}
+				}
+			},
+			"World2": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World3": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World4": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World5": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World6": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World7": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World8": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World9": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World10": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World11": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World12": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World13": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			},
+			"World-1": {
+				"Day": {"source": "Trees.png"},
+				"Night": {"source": "NightTrees.png"}
+			}
+		},
 		"Jungle": {
 			"Day": {"source": "JungleTrees.png"},
 			"Night": {"source": "JungleNightTrees.png"}
