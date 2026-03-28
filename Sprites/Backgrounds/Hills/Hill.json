@@ -106,7 +106,22 @@
 				}
 			}
 		},
-		"Castle": {"source": "Castle.png"},
+		"Castle": {
+			"World1": {"source": "Castle.png"},
+			"World8": {
+				"source": "FinalCastle.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"World13": {"link": "World8"}
+		},
 		"GhostHouse": {"source": "GhostHouse.png"},
 		"Snow": {
 			"Day": {"source": "Snow.png"},
