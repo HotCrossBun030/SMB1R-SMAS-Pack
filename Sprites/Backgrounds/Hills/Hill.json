@@ -103,6 +103,18 @@
 							"properties": {"primary_layer_size": [256, 512]}
 						}
 					}
+				},
+				"Character:Yellow Toad": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusYellowToad.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusYellowToadWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
 				}
 			}
 		},
