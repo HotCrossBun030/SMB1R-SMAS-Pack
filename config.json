@@ -1,6 +1,7 @@
 {
 	"options": {
 		"Luigi Sprites": "Custom",
+		"Bonus Alignment": "Widescreen",
 		"Overworld Night": "Custom",
 		"Snow Night": "Custom"
 	},
@@ -8,6 +9,10 @@
 		"Luigi Sprites": [
 			"Original",
 			"Custom"
+		],
+		"Bonus Alignment": [
+			"4:3",
+			"Widescreen"
 		],
 		"Overworld Night": [
 			"Original",

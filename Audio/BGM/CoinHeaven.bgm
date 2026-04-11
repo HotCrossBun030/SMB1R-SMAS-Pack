@@ -1,0 +1,10 @@
+{
+    "Normal": {
+        "source": "CoinHeaven.ogg",
+        "loop": 0.0
+    },
+    "Hurry": {
+        "source": "CoinHeavenHurry.ogg",
+        "loop": 0.0
+    }
+}

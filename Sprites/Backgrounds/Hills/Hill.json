@@ -24,25 +24,116 @@
 			"Night": {"source": "DesertNight.png"}
 		},
 		"Underground": {
-			"source": "Underground.png",
-			"animation_overrides": {
-				"default": {
-					"frames": [
-						[0, 0, 512, 512],
-						[512, 0, 512, 512], 
-						[1024, 0, 512, 512], 
-						[1536, 0, 512, 512], 
-						[1536, 0, 512, 512], 
-						[1024, 0, 512, 512], 
-						[0, 0, 512, 512], 
-						[512, 0, 512, 512]
-					],
-					"speed": 5.0,
-					"loop": true
+			"MainRoom": {
+				"source": "Underground.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512], 
+							[1536, 0, 512, 512], 
+							[1536, 0, 512, 512], 
+							[1024, 0, 512, 512], 
+							[0, 0, 512, 512], 
+							[512, 0, 512, 512]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"BonusRoom": {
+				"Character:default": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusDefault.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusDefaultWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Mario": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusMario.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusMarioWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Luigi": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusLuigi.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusLuigiWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Toad": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusToad.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusToadWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Toadette": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusToadette.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusToadetteWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Yellow Toad": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusYellowToad.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusYellowToadWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
 				}
 			}
 		},
-		"Castle": {"source": "Castle.png"},
+		"Castle": {
+			"World1": {"source": "Castle.png"},
+			"World8": {
+				"source": "FinalCastle.png",
+				"animation_overrides": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"World13": {"link": "World8"}
+		},
 		"GhostHouse": {"source": "GhostHouse.png"},
 		"Snow": {
 			"Day": {"source": "Snow.png"},

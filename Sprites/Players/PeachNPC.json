@@ -1,4 +1,21 @@
 {
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Await": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Talk": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+	},
 	"variations": {
 		"SMB1": {"source": "Peach.png", "rect": [0, 0, 16, 32]},
 		"SMBLL": {"source": "Peach.png", "rect": [16, 0, 16, 32]},
