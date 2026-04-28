@@ -1,5 +1,9 @@
 {
 	"variations": {
-		"default": { "source": "Underwater.bgm" }
+		"default": {"source": "Underwater.bgm"},
+		"CastleWater": {
+			"Level1": {"source": "Underwater.bgm"},			
+			"Level4": {"source": "Castle.bgm"}
+		}
 	}
 }

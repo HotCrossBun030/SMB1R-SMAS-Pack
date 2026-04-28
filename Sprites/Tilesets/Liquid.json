@@ -3,6 +3,11 @@
 		"default": {
 			"Day": {"source": "Liquids.png"},
 			"Night": {"source": "NightLiquids.png"}
-		}
+		},
+		"Underwater": {
+			"Day": {"source": "LiquidsUnderwater.png"},
+			"Night": {"source": "NightLiquidsUnderwater.png"}
+		},
+		"CastleWater": {"link": "Underwater"}
 	}
 }

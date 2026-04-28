@@ -1,10 +1,10 @@
 {
 	"Normal": {
-		"source": "PSwitch.ogg",
-		"loop": 8.801
+		"source": "PSwitch.mp3",
+		"loop": 8.835
 	},
 	"Hurry": {
-		"source": "PSwitchHurry.ogg",
-		"loop": 7.55
+		"source": "PSwitchHurry.mp3",
+		"loop": 8.815
 	}
 }

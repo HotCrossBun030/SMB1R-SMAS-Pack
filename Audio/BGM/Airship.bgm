@@ -1,10 +1,10 @@
 {
     "Normal": {
-        "source": "Airship.ogg",
-        "loop": 4.001
+        "source": "Airship.mp3",
+        "loop": 4.549
     },
     "Hurry": {
-        "source": "AirshipHurry.ogg",
-        "loop": 3.001
+        "source": "AirshipHurry.mp3",
+        "loop": 4.157
     }
 }

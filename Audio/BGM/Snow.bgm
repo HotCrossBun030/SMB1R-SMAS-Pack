@@ -1,10 +1,10 @@
 {
     "Normal": {
-        "source": "Snow.ogg",
-        "loop": 5.817
+        "source": "Snow.mp3",
+        "loop": 5.784
     },
     "Hurry": {
-        "source": "SnowHurry.ogg",
-        "loop": 4.8
+        "source": "SnowHurry.mp3",
+        "loop": 5.314
     }
 }

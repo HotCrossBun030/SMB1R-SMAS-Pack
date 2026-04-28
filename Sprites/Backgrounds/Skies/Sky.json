@@ -17,7 +17,7 @@
 				"properties": {"sky_scroll_speed": 0}
 			},
 			"CastleWater": {
-				"source": "VoidierVoid.png",
+				"source": "CastleWaterSky.png",
 				"properties": {"sky_scroll_speed": 0}
 			},
 			"Space": {
