@@ -1,5 +1,46 @@
 {
 	"variations": {
-		"default": {"source": "Default.png"}
+		"default": {"source": "Default.png"},
+		"Underwater": {
+			"Day": {
+				"source": "WaterTop.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[0, 512, 512, 512],
+							[512, 512, 512, 512],
+							[1024, 512, 512, 512],
+							[1536, 512, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
+				}
+			},
+			"Night": {
+				"source": "WaterTop.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[0, 512, 512, 512],
+							[512, 512, 512, 512],
+							[1024, 512, 512, 512],
+							[1536, 512, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
+				}
+			}
+		},
+		"CastleWater": {"link": "Underwater"}
 	}
 }

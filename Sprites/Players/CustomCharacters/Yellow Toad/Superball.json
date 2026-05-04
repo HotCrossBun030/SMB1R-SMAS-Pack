@@ -57,12 +57,12 @@
 			"loop": true
 		},
 		"AirAttack": {
-			"frames": [[0, 32, 32, 32]],
+			"frames": [[224, 0, 32, 32]],
 			"speed": 5,
 			"loop": true
 		},
 		"SwimAttack": {
-			"frames": [[0, 32, 32, 32]],
+			"frames": [[224, 0, 32, 32]],
 			"speed": 2.5,
 			"loop": true
 		},
