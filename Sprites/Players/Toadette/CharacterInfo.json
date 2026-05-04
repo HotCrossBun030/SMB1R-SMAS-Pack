@@ -11,7 +11,7 @@
 			"Default": {
 				"CEILING_BUMP_SPEED": {
 					"config:Brick Physics": {
-						"Original": {"value": -45},
+						"All-Stars": {"value": -45},
 						"Fixed": {"value": 45}
 					}
 				}

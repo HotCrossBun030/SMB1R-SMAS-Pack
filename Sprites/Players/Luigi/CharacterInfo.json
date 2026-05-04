@@ -32,7 +32,7 @@
 				"FALL_GRAVITY_RUN": 21.8,
 				"CEILING_BUMP_SPEED": {
 					"config:Brick Physics": {
-						"Original": {"value": -45},
+						"All-Stars": {"value": -45},
 						"Fixed": {"value": 45}
 					}
 				}

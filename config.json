@@ -4,7 +4,7 @@
 		"Bonus Alignment": "Widescreen",
 		"Overworld Night": "Custom",
 		"Snow Night": "Custom",
-		"Brick Physics": "Original"
+		"Brick Physics": "All-Stars"
 	},
 	"value_keys": {
 		"Luigi Sprites": [
@@ -24,8 +24,8 @@
 			"Custom"
 		],
 		"Brick Physics": [
-			"Original",
-			"Physics"
+			"All-Stars",
+			"Fixed"
 		]
 	}
 }
