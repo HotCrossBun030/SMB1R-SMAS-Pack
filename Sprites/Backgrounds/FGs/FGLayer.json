@@ -22,7 +22,7 @@
 				}
 			},
 			"Night": {
-				"source": "WaterTop.png",
+				"source": "NightWaterTop.png",
 				"animations": {
 					"default": {
 						"frames": [

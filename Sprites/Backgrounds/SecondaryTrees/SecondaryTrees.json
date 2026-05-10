@@ -73,10 +73,6 @@
 			"World13": {"link":"World2"},
 			"World-1": {"link":"World2"}
 		},
-		"Jungle": {
-			"Day": {"source": "JungleTrees.png"},
-			"Night": {"source": "JungleNightTrees.png"}
-		},
 		"Snow": {
 			"Day": {"source": "SnowTrees.png"},
 			"Night": {"source": "SnowNightTrees.png"}
@@ -98,15 +94,14 @@
 			"Night": {"source": "SpaceTrees.png"}
 		},
 		"Underground": {"source": "UndergroundTrees.png"},
-		"GhostHouse": {
-			"link": "Underground"
-		},
+		"GhostHouse": {"link": "Underground"},
 		"Underwater": {
 			"Day": {"source": "UnderwaterTrees.png"},
 			"Night": {"source": "UnderwaterTreesNight.png"}
 		},
 		"CastleWater": {
-			"link": "Underwater"
+			"Day": {"source": "CastleWaterTrees.png"},
+			"Night": {"source": "CastleWaterTreesNight.png"}
 		},
 		"Volcano": {
 			"Day": {"source": "VolcanoTrees.png"},
