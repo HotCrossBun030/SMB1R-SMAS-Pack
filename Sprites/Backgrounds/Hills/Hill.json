@@ -56,6 +56,30 @@
 						}
 					}
 				},
+				"Character:Boshi": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusDefault.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusDefaultWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Daisy": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusDefault.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusDefaultWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
 				"Character:Mario": {
 					"config:Bonus Alignment": {
 						"4:3": {
@@ -76,6 +100,18 @@
 						},
 						"Widescreen": {
 							"source": "BonusRoom/BonusLuigiWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Peach": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusPeach.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusPeachWide.png",
 							"properties": {"primary_layer_size": [256, 512]}
 						}
 					}
@@ -104,6 +140,30 @@
 						}
 					}
 				},
+				"Character:Waluigi": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusWario.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusWarioWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Wario": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusWario.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusWarioWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
 				"Character:Yellow Toad": {
 					"config:Bonus Alignment": {
 						"4:3": {
@@ -112,6 +172,18 @@
 						},
 						"Widescreen": {
 							"source": "BonusRoom/BonusYellowToadWide.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						}
+					}
+				},
+				"Character:Yoshi": {
+					"config:Bonus Alignment": {
+						"4:3": {
+							"source": "BonusRoom/BonusYoshi.png",
+							"properties": {"primary_layer_size": [256, 512]}
+						},
+						"Widescreen": {
+							"source": "BonusRoom/BonusYoshiWide.png",
 							"properties": {"primary_layer_size": [256, 512]}
 						}
 					}
