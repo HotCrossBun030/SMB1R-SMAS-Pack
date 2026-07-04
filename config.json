@@ -1,12 +1,17 @@
 {
 	"options": {
+		"Classic Themes": "Enabled",
 		"Luigi Sprites": "Custom",
-		"Bonus Alignment": "Widescreen",
-		"Overworld Night": "Custom",
-		"Snow Night": "Custom",
-		"Brick Physics": "All-Stars"
+		"Bonus Alignment": "4:3",
+		"Overworld Night": "Original",
+		"Snow Night": "Original",
+		"Brick Physics": "Fixed"
 	},
 	"value_keys": {
+		"Classic Themes": [
+			"Enabled",
+			"Disabled"
+		],
 		"Luigi Sprites": [
 			"Original",
 			"Custom"
@@ -27,5 +32,12 @@
 			"All-Stars",
 			"Fixed"
 		]
+	},
+	"option_descs": {
+		"Luigi Sprites": [
+			"Uses the original sprites from SMAS",
+			"Uses edited sprites, to make Luigi taller."
+		],
+		"Bonus Alignment": "Used to align the character heads on the background, because of parallax"
 	}
 }

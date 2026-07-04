@@ -1,0 +1,73 @@
+{
+    "variations": {
+        "config:Classic Themes": {
+            "Enabled": {
+                "default": {
+                    "SMB1": {
+                        "World2": {
+                            "RoomType:TitleScreen": {"theme": "Overworld"},
+                            "RoomType:Default": {
+                                "Level1": {"theme": "Overworld", "music": "Overworld"},
+                                "Level2": {
+                                    "RoomType:PipeCutscene": {"theme": "Overworld", "liquid": 0},
+                                    "RoomType:SublevelExit": {"theme": "Overworld", "music": "Overworld", "liquid": 0}
+                                },
+                                "Level3": {"theme": "Desert", "music": "Overworld", "liquid": 0},
+                                "Level4": {}
+                            }
+                        },
+                        "World3": {
+                            "Level1": {"theme": "Snow", "time": "Night", "music": "Overworld", "extra_bgm": "Snow", "particles": 1},
+                            "Level2": {"link": "Level1"},
+                            "Level3": {"theme": "Overworld", "time": "Night", "music": "Overworld", "primary_bg": 2, "particles": 0, "extra_bgm": "Athletic", "secondary_bg": 0},
+                            "Level4": {}
+                        },
+                        "World4": {
+                            "Level1": {"theme": "Overworld", "music": "Overworld", "particles": 0},
+                            "Level2": {
+                                "RoomType:PipeCutscene": {"theme": "Overworld", "primary_bg": 2},
+                                "RoomType:CoinHeaven": {"theme": "Overworld", "music": "Overworld", "primary_bg": 2},
+                                "RoomType:SublevelExit": {"theme": "Overworld", "music": "Overworld"}
+                            },
+                            "Level3": {"theme": "Overworld", "music": "Overworld", "primary_bg": 2},
+                            "Level4": {}
+                        },
+                        "World5": {
+                            "Level1": {"theme": "Snow", "time": "Day", "music": "Overworld", "extra_bgm": "Snow", "particles": 1},
+                            "Level2": {"link": "Level1"},
+                            "Level3": {"theme": "Overworld", "time": "Day", "music": "Overworld", "extra_bgm": "Athletic", "particles": 0, "secondary_bg": 2},
+                            "Level4": {}
+                        },
+                        "World6": {
+                            "Level1": {"theme": "Overworld", "music": "Overworld"},
+                            "Level2": {"link": "Level1"},
+                            "Level3": {"theme": "Overworld", "music": "Overworld", "primary_bg": 2, "secondary_bg": 0},
+                            "Level4": {}
+                        },
+                        "World7": {
+                            "Level1": {"theme": "Snow", "time": "Day", "music": "Overworld", "primary_bg": 0, "extra_bgm": "Snow", "particles": 1},
+                            "Level2": {
+                                "RoomType:PipeCutscene": {"theme": "Overworld", "time": "Day", "primary_bg": 2, "liquid": 0},
+                                "RoomType:MainRoom": {"time": "Day", "theme": "Underwater"},
+                                "RoomType:SublevelExit": {"theme": "Overworld", "time": "Day", "music": "Overworld", "liquid": 0}
+                            },
+                            "Level3": {"theme": "Desert", "time": "Day", "music": "Overworld", "primary_bg": 0},
+                            "Level4": {}
+                        },
+                        "World8": {
+                            "Level1": {"time": "Day", "primary_bg": 0},
+                            "Level2": {"link": "Level1"},
+                            "Level3": {"link": "Level1"},
+                            "Level4": {"time": "Day"}
+                        }
+                    }
+                },
+                "Underground": {},
+                "Underwater": {"time": "Day"},
+                "Castle": {"time": "Day"}
+            },
+            "Disabled": {}
+        }
+    }
+}
+
