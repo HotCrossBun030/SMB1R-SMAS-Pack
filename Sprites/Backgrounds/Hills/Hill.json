@@ -24,7 +24,7 @@
 			"Night": {"source": "DesertNight.png"}
 		},
 		"Underground": {
-			"MainRoom": {
+			"RoomType:MainRoom": {
 				"source": "Underground.png",
 				"animation_overrides": {
 					"default": {
@@ -43,7 +43,7 @@
 					}
 				}
 			},
-			"BonusRoom": {
+			"RoomType:BonusRoom": {
 				"Character:default": {
 					"config:Bonus Alignment": {
 						"4:3": {
