@@ -1,8 +1,1 @@
-{
-	"variations": {
-		"default": {
-			"source": "FlipBlockDestructionParticles.png", 
-			"rect": [0, 0, 16, 16]
-		}
-	}
-}
+{"variations": {"source": "FlipBlockDestructionParticles.png"}}
