@@ -87,6 +87,11 @@
 			],
 			"speed": 1,
 			"loop": false
+		},
+		"LevelTransition": {
+			"frames": [[32, 64, 32, 32]],
+			"speed": 1,
+			"loop": false
 		}
 	},
 	"variations": {
