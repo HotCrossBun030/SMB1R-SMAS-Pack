@@ -6,11 +6,9 @@
 				[16, 0, 16, 16],
 				[32, 0, 16, 16]
 			],
-			"speed": 8.0,
+			"speed": 8,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {"source": "QuestionBlock.png", "rect": [0, 0, 48, 16]}
-	}
+	"variations": {"source": "QuestionBlock.png"}
 }

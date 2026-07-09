@@ -6,7 +6,5 @@
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {"source": "NoteBlock.png", "rect": [0, 0, 16, 16]}
-	}
+	"variations": {"source": "NoteBlock.png"}
 }

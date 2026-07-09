@@ -1,10 +1,5 @@
 {
 	"animations": {
-		"Rest": {
-			"frames": [[0, 0, 16, 16]],
-			"speed": 5,
-			"loop": true
-		},
 		"Off": {
 			"frames": [
 				[80, 0, 16, 16],
@@ -12,7 +7,7 @@
 				[112, 0, 16, 16],
 				[0, 0, 16, 16]
 			],
-			"speed": 15,
+			"speed": 30.0,
 			"loop": false
 		},
 		"On": {
@@ -22,12 +17,11 @@
 				[48, 0, 16, 16],
 				[64, 0, 16, 16]
 			],
-			"speed": 15,
+			"speed": 30.0,
 			"loop": false
 		}
 	},
 	"variations": {
-		"source": "SwitchSpike.png",
-		"rect": [0, 0, 128, 16]
+		"default": {"source": "ToggleSpike.png"}
 	}
 }

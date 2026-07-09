@@ -6,7 +6,5 @@
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {"source": "MusicBlock.png", "rect": [0, 0, 16, 16]}
-	}
+	"variations": {"source": "MusicBlock.png"}
 }
