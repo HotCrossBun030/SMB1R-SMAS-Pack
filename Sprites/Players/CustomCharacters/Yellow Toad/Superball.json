@@ -104,10 +104,5 @@
 			"loop": false
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "Superball.png",
-			"rect": [0, 0, 256, 96]
-		}
-	}
+	"variations": {"source": "Superball.png"}
 }

@@ -104,14 +104,9 @@
 		},
 		"LevelTransition": {
 			"frames": [[160, 64, 32, 32]],
-			"speed": 1,
+			"speed": 5,
 			"loop": false
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "Small.png",
-			"rect": [0, 0, 256, 96]
-		}
-	}
+	"variations": {"source": "Small.png"}
 }

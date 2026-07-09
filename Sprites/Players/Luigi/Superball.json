@@ -107,14 +107,8 @@
 	"variations": {
 		"default": {
 			"config:Luigi Sprites": {
-				"Original": {
-					"source": "SuperballOG.png",
-					"rect": [0, 0, 256, 144]
-				}, 
-				"Custom": {
-					"source": "Superball.png",
-					"rect": [0, 0, 256, 144]
-				}
+				"Original": {"source": "SuperballOG.png"}, 
+				"Custom": {"source": "Superball.png"}
 			}
 		}
 	}

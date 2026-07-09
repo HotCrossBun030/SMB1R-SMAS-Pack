@@ -108,10 +108,5 @@
 			"loop": false
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "Big.png",
-			"rect": [0, 0, 256, 96]
-		}
-	}
+	"variations": {"source": "Big.png"}
 }
