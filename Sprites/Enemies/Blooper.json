@@ -1,34 +1,15 @@
 {
 	"animations": {
-		"Fall": {
-			"frames": [
-				[
-					16.0,
-					0.0,
-					16.0,
-					24.0
-				]
-			],
-			"speed": 5.0,
+		"Rise": {
+			"frames": [[0, 0, 16, 24]],
+			"speed": 5,
 			"loop": true
 		},
-		"Rise": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					24.0
-				]
-			],
-			"speed": 5.0,
+		"Fall": {
+			"frames": [[16, 0, 16, 24]],
+			"speed": 5,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "Blooper.png",
-			"rect": [0, 0, 32, 24]
-		}
-	}
+	"variations": {"source": "Blooper.png"}
 }

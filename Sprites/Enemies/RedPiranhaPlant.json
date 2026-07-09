@@ -2,33 +2,21 @@
 	"animations": {
 		"default": {
 			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					24.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					24.0
-				]
+				[0, 0, 16, 24],
+				[16, 0, 16, 24]
 			],
-			"speed": 10.0,
+			"speed": 10,
 			"loop": true
 		}
 	},
 	"variations": {
-		"default": {
-			"SMB1": {
-				"source": "PiranhaPlant.png",
-				"rect": [64, 24, 32, 24]
-			},
-			"SMBANN": {
-				"source": "DiscoPiranha.png",
-				"rect": [64, 24, 32, 24]
-			}
+		"SMB1": {
+			"source": "PiranhaPlant.png",
+			"rect": [64, 24, 32, 24]
+		},
+		"SMBANN": {
+			"source": "DiscoPiranha.png",
+			"rect": [64, 24, 32, 24]
 		}
 	}
 }
