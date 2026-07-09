@@ -1,7 +1,5 @@
 {
-	"properties": {
-		"can_mushroom_tint": false
-	},
+	"properties": {"can_mushroom_tint": false},
 	"variations": {
 		"default": {
 			"Day": {"source": "Mushrooms.png"},
@@ -12,11 +10,6 @@
 			"Day": {"source": "SnowMushrooms.png"},
 			"Night": {"source": "SnowMushroomsNight.png"}
 		},
-		"Volcano": {"source": "VolcanoMushrooms.png"},
-		"Airship": {
-			"Day": {"source": "AirshipMushrooms.png"},
-			"Night": {"source": "AirshipMushroomsNight.png"}
-		},
 		"Beach": {
 			"Day": {"source": "BeachMushrooms.png"},
 			"Night": {"source": "BeachMushroomsNight.png"}
@@ -26,8 +19,12 @@
 			"Day": {"source": "UnderwaterMushrooms.png"},
 			"Night": {"source": "UnderwaterMushroomsNight.png"}
 		},
-		"CastleWater": {
-			"link": "Underwater"
+		"Volcano": {"link": "Underground"},
+		"GhostHouse": {"link": "Underground"},
+		"CastleWater": {"link": "Underwater"},
+		"Airship": {
+			"Day": {"source": "AirshipMushrooms.png"},
+			"Night": {"source": "AirshipMushroomsNight.png"}
 		}
 	}
 }
