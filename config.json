@@ -1,13 +1,28 @@
 {
+	"option_descs": {
+		"Bonus Alignment": "Used to align the character heads on the background, because of parallax",
+		"Luigi Sprites": [
+			"Uses the original sprites from SMAS",
+			"Uses edited sprites, to make Luigi taller."
+		]
+	},
 	"options": {
+		"Bonus Alignment": "4:3",
+		"Brick Physics": "Fixed",
 		"Classic Themes": "Enabled",
 		"Luigi Sprites": "Custom",
-		"Bonus Alignment": "4:3",
 		"Overworld Night": "Original",
-		"Snow Night": "Original",
-		"Brick Physics": "Fixed"
+		"Snow Night": "Original"
 	},
 	"value_keys": {
+		"Bonus Alignment": [
+			"4:3",
+			"Widescreen"
+		],
+		"Brick Physics": [
+			"All-Stars",
+			"Fixed"
+		],
 		"Classic Themes": [
 			"Enabled",
 			"Disabled"
@@ -16,10 +31,6 @@
 			"Original",
 			"Custom"
 		],
-		"Bonus Alignment": [
-			"4:3",
-			"Widescreen"
-		],
 		"Overworld Night": [
 			"Original",
 			"Custom"
@@ -27,17 +38,6 @@
 		"Snow Night": [
 			"Original",
 			"Custom"
-		],
-		"Brick Physics": [
-			"All-Stars",
-			"Fixed"
 		]
-	},
-	"option_descs": {
-		"Luigi Sprites": [
-			"Uses the original sprites from SMAS",
-			"Uses edited sprites, to make Luigi taller."
-		],
-		"Bonus Alignment": "Used to align the character heads on the background, because of parallax"
 	}
 }
