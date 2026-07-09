@@ -1,7 +1,5 @@
 {
-	"properties": {
-		"can_spawn_particles": true
-	},
+	"properties": {"can_spawn_particles": true},
 	"animations": {
 		"default": {
 			"frames": [
@@ -10,7 +8,7 @@
 				[32, 0, 16, 16],
 				[48, 0, 16, 16]
 			],
-			"speed": 20.0,
+			"speed": 20,
 			"loop": true
 		}
 	},

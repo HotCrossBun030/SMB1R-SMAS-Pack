@@ -11,10 +11,5 @@
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "SuperballFlower.png",
-			"rect": [0, 0, 64, 16]
-		}
-	}
+	"variations": {"source": "SuperballFlower.png"}
 }
