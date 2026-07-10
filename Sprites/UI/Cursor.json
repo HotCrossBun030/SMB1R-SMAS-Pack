@@ -1,8 +1,6 @@
 {
 	"variations": {
-		"default": {
-			"source": "Cursor.png",
-			"rect": [0, 0, 8, 8]
-		}
+		"source": "Cursor.png",
+		"rect": [0, 0, 8, 8]
 	}
 }

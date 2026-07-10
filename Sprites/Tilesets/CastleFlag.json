@@ -1,6 +1,5 @@
 {
-	"animations":
-	{
+	"animations": {
 		"default":{
 			"frames": [
 				[0, 0, 16, 16],
@@ -8,22 +7,18 @@
 				[32, 0, 16, 16],
 				[48, 0, 16, 16]
 			],
-			"speed": 8.0,
+			"speed": 8,
 			"loop": true
 		}
 	},
 	"variations": {
 		"SMB1": {
-			"default": {
-				"source": "CastleFlag.png",
-				"rect": [0, 0, 64, 16]
-			}
+			"source": "CastleFlag.png",
+			"rect": [0, 0, 64, 16]
 		},
 		"SMBANN": {
-			"default": {
-				"source": "CastleFlag.png",
-				"rect": [0, 16, 64, 16]
-			}
+			"source": "CastleFlag.png",
+			"rect": [0, 16, 64, 16]
 		}
 	}
 }
