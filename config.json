@@ -27,5 +27,24 @@
 			"All-Stars",
 			"Fixed"
 		]
+	},
+	"option_descs": {
+		"Luigi Sprites": [
+			"Uses the original sprites from All-Stars SMB1, with only minimal edits to Luigi's sprites.",
+			"Uses edited sprites based on All-Stars SMB3, making Luigi generally taller amongst other tweaks."
+		],
+		"Bonus Alignment": "Used to align the character heads on the background because of parallax.",
+		"Overworld Night": [
+			"Uses the original game's unique Night BG for Night Overworld levels; matching the original game.",
+			"Uses a recolor of the Day BG for Night Overworld levels; matching Super Mario Bros. Remastered."
+		],
+		"Snow Night": [
+			"Uses the original game's unique Night BG for Night Snow levels; matching the original game.",
+			"Uses a recolor of the Day BG for Night Snow levels; matching Super Mario Bros. Remastered."
+		],
+		"Brick Physics": [
+			"On Classic Physics only, Hitting Bricks works the same way it does in the original All-Stars.",
+			"On Classic Physics only, Hitting Bricks is fixed and properly sends the player down like on the NES."
+		]
 	}
 }
