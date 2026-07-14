@@ -16,6 +16,54 @@
 				}
 			}
 		},
+		"Overworld": {
+			"LevelMetadata:BGStyle": {
+				"Default": {
+					"Day": {"source": "Overworld.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "OverworldNight.png"}
+						}
+					}
+				},
+				"TallHills": {
+					"Day": {"source": "TallHills.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "TallHillsNight.png"}
+						}
+					}
+				},
+				"Pillars": {
+					"Day": {"source": "Desert.png"},
+					"Night": {"source": "DesertNight.png"}
+				},
+				"HillsnTrees": {
+					"Day": {"source": "HillsnTrees.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "HillsnTreesNight.png"}
+						}
+					}
+				},
+				"BrownHills": {
+					"Day": {"source": "BrownHills.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "BrownHillsNight.png"}
+						}
+					}
+				},
+				"CastleWalls": {
+					"Day": {"source": "CastleBush.png"},
+					"Night": {"source": "CastleBushNight.png"}
+				}
+			}
+		},
 		"Underground": {
 			"RoomType:MainRoom": {
 				"source": "Underground.png",
@@ -160,27 +208,28 @@
 		"Volcano": {"source": "Volcano.png"},
 		"GhostHouse": {"source": "GhostHouse.png"},
 		"Castle": {
-			"World1": {"source": "Castle.png"},
-			"World8": {
-				"source": "FinalCastle.png",
-				"animation_overrides": {
-					"default": {
-						"frames": [
-							[0, 0, 512, 512],
-							[512, 0, 512, 512],
-							[1024, 0, 512, 512],
-							[1536, 0, 512, 512],
-							[0, 512, 512, 512],
-							[512, 512, 512, 512],
-							[1024, 512, 512, 512],
-							[1536, 512, 512, 512]
-						],
-						"speed": 8,
-						"loop": true
+			"LevelMetadata:BGStyle": {
+				"Default": {"source": "Castle.png"},
+				"FinalCastle": {
+					"source": "FinalCastle.png",
+					"animation_overrides": {
+						"default": {
+							"frames": [
+								[0, 0, 512, 512],
+								[512, 0, 512, 512],
+								[1024, 0, 512, 512],
+								[1536, 0, 512, 512],
+								[0, 512, 512, 512],
+								[512, 512, 512, 512],
+								[1024, 512, 512, 512],
+								[1536, 512, 512, 512]
+							],
+							"speed": 8,
+							"loop": true
+						}
 					}
 				}
-			},
-			"World13": {"link": "World8"}
+			}
 		},
 		"CastleWater": {
 			"Day": {"source": "CastleWater.png"},

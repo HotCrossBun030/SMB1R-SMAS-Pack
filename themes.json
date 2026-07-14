@@ -1,0 +1,26 @@
+{
+	"variations": {
+		"RoomType:TitleScreen": {
+			"SMB1": {
+				"World8": {"theme": "Overworld", "time": "Night"}
+			}
+		},
+		"RoomType:Default": {
+			"GameMode:Default": {
+				"SMB1": {
+					"World8": {
+						"Level2": {
+							"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld", "metadata": {"BGStyle": "BrownHills"}},
+							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
+						},
+						"Level3": {"theme": "Overworld", "time": "Night", "music": "Overworld", "metadata": {"BGStyle": "CastleWalls"}},
+						"Level4": {
+							"default": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3, "metadata": {"BGStyle": "FinalCastle"}},
+							"CastleWater": {"music": "Castle"}
+						}
+					}
+				}
+			}
+		}
+	}
+}
