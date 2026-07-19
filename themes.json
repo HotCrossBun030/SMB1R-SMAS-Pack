@@ -60,22 +60,27 @@
                         },
                         "World8": {
                             "Level1": {"time": "Day"},
-                            "Level2": {
-                                "Overworld": {"time": "Day", "metadata": {"BGStyle": "BrownHills"}}
-                            },
-                            "Level3": {"time": "Day", "metadata": {"BGStyle": "CastleWalls", "NoCastleWalls": "true"}},
-                            "Level4": {
-                                "default": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3, "metadata": {"BGStyle": "FinalCastle"}},
-                                "CastleWater": {"music": "Castle"}
-                            }
+                            "Level2": {"time": "Day", "metadata": {"BGStyle": "BrownHills"}},
+                            "Level3": {"time": "Day", "metadata": {"BGStyle": "CastleWalls", "NoCastleWalls": true}}
                         }
                     }
                 },
                 "Underground": {},
                 "Underwater": {"time": "Day"},
-                "Castle": {"time": "Day"}
+                "Castle": {
+                    "World1": {},
+                    "World8": {"metadata": {"BGStyle": "FinalCastle"}}
+                }
             },
-            "Disabled": {}
+            "Disabled": {
+                "SMB1": {
+                    "World8": {
+                        "Level2": {"metadata": {"BGStyle": "BrownHills"}},
+                        "Level3": {"metadata": {"BGStyle": "CastleWalls", "NoCastleWalls": "true"}},
+                        "Level4": {"metadata": {"BGStyle": "FinalCastle"}}
+                    }
+                }
+            }
         }
     }
 }
