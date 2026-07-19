@@ -18,10 +18,7 @@
 				}
 			}
 		},
-		"Underground": {
-			"source": "UndergroundDeco.png",
-			"rect": [0, 0, 80, 32]
-		},
+		"Underground": {"source": "UndergroundDeco.png"},
 		"Desert": {
 			"Day": {
 				"source": "DesertDeco.png",
@@ -146,14 +143,8 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
-		"Castle": {
-			"source": "CastleDeco.png",
-			"rect": [0, 0, 80, 32]
-		},
-		"CastleWater": {
-			"source": "CastleWaterDeco.png",
-			"rect": [0, 0, 80, 32]
-		},
+		"Castle": {"source": "CastleDeco.png"},
+		"CastleWater": {"source": "CastleWaterDeco.png"},
 		"Airship": {
 			"Day": {
 				"source": "AirshipDeco.png",
@@ -164,9 +155,6 @@
 				"rect": [0, 32, 80, 32]
 			}
 		},
-		"Bonus": {
-			"source": "BonusDeco.png",
-			"rect": [0, 0, 80, 32]
-		}
+		"Bonus": {"source": "BonusDeco.png"}
 	}
 }

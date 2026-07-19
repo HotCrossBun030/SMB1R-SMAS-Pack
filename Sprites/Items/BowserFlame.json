@@ -6,14 +6,24 @@
 				[24, 0, 24, 16],
 				[48, 0, 24, 16]
 			],
-			"speed": 7.0,
+			"speed": 7,
 			"loop": true
 		}
 	},
 	"variations": {
-		"default": {
-			"source": "BowserFlame.png",
-			"rect": [0, 0, 92, 16]
+		"Metadata:IsBowserBro": {
+			"false": {
+				"source": "BowserFlame.png",
+				"rect": [0, 0, 92, 16]
+			},
+			"true": {
+				"source": "BowserFlame.png",
+				"rect": [0, 16, 92, 16]
+			},
+			"default": {
+				"source": "BowserFlame.png",
+				"rect": [0, 0, 92, 16]
+			}
 		}
 	}
 }

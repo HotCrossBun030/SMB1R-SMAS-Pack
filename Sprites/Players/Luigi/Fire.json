@@ -107,14 +107,8 @@
 	"variations": {
 		"default": {
 			"config:Luigi Sprites": {
-				"Original": {
-					"source": "FireOG.png",
-					"rect": [0, 0, 256, 144]
-				}, 
-				"Custom": {
-					"source": "Fire.png",
-					"rect": [0, 0, 256, 144]
-				}
+				"Original": {"source": "FireOG.png"}, 
+				"Custom": {"source": "Fire.png"}
 			}
 		}
 	}

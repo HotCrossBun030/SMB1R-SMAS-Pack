@@ -15,9 +15,18 @@
 	"variations": {
 		"default": {
 			"choices": [
-				{"source": "Firework.png", "rect": [0, 0, 128, 32]},
-				{"source": "Firework.png", "rect": [0, 32, 128, 32]},
-				{"source": "Firework.png", "rect": [0, 64, 128, 32]}
+				{
+					"source": "Firework.png",
+					"rect": [0, 0, 128, 32]
+				},
+				{
+					"source": "Firework.png",
+					"rect": [0, 32, 128, 32]
+				},
+				{
+					"source": "Firework.png",
+					"rect": [0, 64, 128, 32]
+				}
 			]
 		}
 	}

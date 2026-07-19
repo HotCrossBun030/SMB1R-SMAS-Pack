@@ -1,11 +1,8 @@
 {
-	"properties": {
-		"primary_layer_size": [512, 512]
-	},
 	"animations": {
 		"default": {
 			"frames": [[0, 0, 512, 512]],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		}
 	},
@@ -66,12 +63,56 @@
 				"Overworld3": {"source": "Overworld3.png"}
 			}
 		},
-		"Desert": {
-			"Day": {"source": "Desert.png"},
-			"Night": {"source": "DesertNight.png"}
+		"Overworld": {
+			"LevelMetadata:BGStyle": {
+				"Default": {
+					"Day": {"source": "Overworld.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "OverworldNight.png"}
+						}
+					}
+				},
+				"TallHills": {
+					"Day": {"source": "TallHills.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "TallHillsNight.png"}
+						}
+					}
+				},
+				"Pillars": {
+					"Day": {"source": "Desert.png"},
+					"Night": {"source": "DesertNight.png"}
+				},
+				"HillsnTrees": {
+					"Day": {"source": "HillsnTrees.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "HillsnTreesNight.png"}
+						}
+					}
+				},
+				"BrownHills": {
+					"Day": {"source": "BrownHills.png"},
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "BrownHillsNight.png"}
+						}
+					}
+				},
+				"CastleWalls": {
+					"Day": {"source": "CastleBush.png"},
+					"Night": {"source": "CastleBushNight.png"}
+				}
+			}
 		},
 		"Underground": {
-			"RoomType:MainRoom": {
+			"RoomType:Default": {
 				"source": "Underground.png",
 				"animation_overrides": {
 					"default": {
@@ -85,7 +126,7 @@
 							[0, 0, 512, 512], 
 							[512, 0, 512, 512]
 						],
-						"speed": 5.0,
+						"speed": 5,
 						"loop": true
 					}
 				}
@@ -96,11 +137,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusDefault.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusDefaultWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusDefault.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -108,11 +162,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusMario.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusMarioWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusMario.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -120,11 +187,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusLuigi.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusLuigiWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusLuigi.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -132,11 +212,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusToad.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusToadWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusToad.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -144,11 +237,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusToadette.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusToadetteWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusToadette.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -156,40 +262,33 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusYellowToad.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusYellowToadWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusYellowToad.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				}
 			}
 		},
-		"Castle": {
-			"World1": {"source": "Castle.png"},
-			"World8": {
-				"source": "FinalCastle.png",
-				"animation_overrides": {
-					"default": {
-						"frames": [
-							[0, 0, 512, 512],
-							[512, 0, 512, 512],
-							[1024, 0, 512, 512],
-							[1536, 0, 512, 512],
-							[0, 512, 512, 512],
-							[512, 512, 512, 512],
-							[1024, 512, 512, 512],
-							[1536, 512, 512, 512]
-						],
-						"speed": 8,
-						"loop": true
-					}
-				}
-			},
-			"World13": {"link": "World8"}
+		"Desert": {
+			"Day": {"source": "Desert.png"},
+			"Night": {"source": "DesertNight.png"}
 		},
-		"GhostHouse": {"source": "GhostHouse.png"},
 		"Snow": {
 			"Day": {"source": "Snow.png"},
 			"Night": {
@@ -203,15 +302,14 @@
 			"Day": {"source": "Jungle.png"},
 			"Night": {"source": "JungleNight.png"}
 		},
-		"Autumn": {
-			"Day": {"source": "Autumn.png"},
-			"Night": {"source": "AutumnNight.png"}
+		"Beach": {
+			"Day": {"source": "BeachHills.png"},
+			"Night": {"source": "BeachHillsNight.png"}
 		},
-		"Pipeland": {
-			"Day": {"source": "Pipeland.png"},
-			"Night": {"source": "PipelandNight.png"}
+		"Garden": {
+			"Day": {"source": "GardenHill.png"},
+			"Night": {"source": "GardenNight.png"}
 		},
-		"Volcano": {"source": "Volcano.png"},
 		"Mountain": {
 			"Day": {"source": "Mountain.png"},
 			"Night": {"source": "MountainNight.png"}
@@ -220,23 +318,49 @@
 			"Day": {"source": "Sky.png"},
 			"Night": {"source": "SkyNight.png"}
 		},
-		"Beach": {
-			"Day": {"source": "BeachHills.png"},
-			"Night": {"source": "BeachHillsNight.png"}
+		"Autumn": {
+			"Day": {"source": "Autumn.png"},
+			"Night": {"source": "AutumnNight.png"}
 		},
+		"Pipeland": {
+			"Day": {"source": "Pipeland.png"},
+			"Night": {"source": "PipelandNight.png"}
+		},
+		"Space": {"source": "Space.png"},
 		"Underwater": {
 			"Day": {"source": "Underwater.png"},
 			"Night": {"source": "UnderwaterNight.png"}
 		},
-		"Garden": {
-			"Day": {"source": "GardenHill.png"},
-			"Night": {"source": "GardenNight.png"}
+		"Volcano": {"source": "Volcano.png"},
+		"GhostHouse": {"source": "GhostHouse.png"},
+		"Castle": {
+			"LevelMetadata:BGStyle": {
+				"Default": {"source": "Castle.png"},
+				"FinalCastle": {
+					"source": "FinalCastle.png",
+					"animation_overrides": {
+						"default": {
+							"frames": [
+								[0, 0, 512, 512],
+								[512, 0, 512, 512],
+								[1024, 0, 512, 512],
+								[1536, 0, 512, 512],
+								[0, 512, 512, 512],
+								[512, 512, 512, 512],
+								[1024, 512, 512, 512],
+								[1536, 512, 512, 512]
+							],
+							"speed": 8,
+							"loop": true
+						}
+					}
+				}
+			}
 		},
 		"CastleWater": {
 			"Day": {"source": "CastleWater.png"},
 			"Night": {"source": "CastleWaterNight.png"}
 		},
-		"Space": {"source": "Space.png"},
 		"Airship": {"link": "Skyland"},
 		"Bonus": {"source": "Bonus.png"}
 	}

@@ -1,22 +1,21 @@
 {
+	"properties": {"can_turn": false},
 	"animations": {
 		"Walk": {
 			"frames": [
 				[0, 0, 16, 16],
 				[16, 0, 16, 16]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		},
 		"Stomped": {
 			"frames": [[32, 0, 16, 16]],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		}
 	},
-	
-	"variations":
-	{
+	"variations": {
 		"default": {
 			"SMB1": {
 				"source": "Goomba.png",
@@ -86,7 +85,7 @@
 			},
 			"SMBANN": {
 				"source": "DiscoGoomba.png",
-				"Rect": [96, 16, 48, 16]
+				"rect": [96, 16, 48, 16]
 			}
 		},
 		"Autumn": {
@@ -96,7 +95,7 @@
 			},
 			"SMBANN": {
 				"source": "DiscoGoomba.png",
-				"rect": [144, 16, 48, 16]
+				"Rect": [144, 16, 48, 16]
 			}
 		},
 		"Beach": {

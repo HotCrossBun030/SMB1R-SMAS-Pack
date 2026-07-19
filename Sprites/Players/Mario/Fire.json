@@ -104,10 +104,5 @@
 			"loop": false
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "Fire.png",
-			"rect": [0, 0, 256, 96]
-		}
-	}
+	"variations": {"source": "Fire.png"}
 }

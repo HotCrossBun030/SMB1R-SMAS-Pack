@@ -97,14 +97,8 @@
 	"variations": {
 		"default": {
 			"config:Luigi Sprites": {
-				"Original": {
-					"source": "BigOG.png",
-					"rect": [0, 0, 256, 144]
-				}, 
-				"Custom": {
-					"source": "Big.png",
-					"rect": [0, 0, 256, 144]
-				}
+				"Original": {"source": "BigOG.png"}, 
+				"Custom": {"source": "Big.png"}
 			}
 		}
 	}

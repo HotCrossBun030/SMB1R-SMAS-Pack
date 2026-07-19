@@ -24,9 +24,7 @@
 				}
 			]
 		},
-		"GhostHouse": {
-			"link": "Underground"
-		},
+		"GhostHouse": {"link": "Underground"},
 		"Castle": {
 			"choices": [
 				{
@@ -39,9 +37,7 @@
 				}
 			]
 		},
-		"CastleWater": {
-			"link": "Castle"
-		},
+		"CastleWater": {"link": "Castle"},
 		"Desert": {
 			"choices": [
 				{

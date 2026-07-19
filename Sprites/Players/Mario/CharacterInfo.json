@@ -5,7 +5,7 @@
 			"Default": {},
 			"Small": {},
 			"Big": {},
-			"Fire": {},
+			"Fire": {}
 		},
 		"CLASSIC_PARAMETERS": {
 			"Default": {
@@ -18,13 +18,13 @@
 			},
 			"Small": {},
 			"Big": {},
-			"Fire": {},
+			"Fire": {}
 		},
 		"ENDING_PARAMETERS": {
 			"Default": {},
 			"Small": {},
 			"Big": {},
-			"Fire": {},
+			"Fire": {}
 		},
 		"DEATH_PARAMETERS": {
 			"Default": {}
@@ -33,7 +33,7 @@
 			"Default": {},
 			"Small": {},
 			"Big": {},
-			"Fire": {},
-		},
-	},
+			"Fire": {}
+		}
+	}
 }

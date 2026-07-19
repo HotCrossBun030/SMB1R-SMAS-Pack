@@ -1,10 +1,12 @@
 {
+	"properties": {
+		"can_turn": true,
+		"flipped_offset": [0, 0]
+	},
 	"animations": {
 		"Idle": {
-			"frames": [
-				[16, 0, 16, 16]
-			],
-			"speed": 5.0,
+			"frames": [[16, 0, 16, 16]],
+			"speed": 5,
 			"loop": true
 		},
 		"Spin": {
@@ -14,7 +16,7 @@
 				[48, 0, 16, 16],
 				[64, 0, 16, 16]
 			],
-			"speed": 15.0,
+			"speed": 15,
 			"loop": true
 		},
 		"Wake": {
@@ -22,7 +24,7 @@
 				[0, 0, 16, 16],
 				[16, 0, 16, 16]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		}
 	},

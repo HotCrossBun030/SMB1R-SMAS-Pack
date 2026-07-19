@@ -1,35 +1,29 @@
 {
 	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5,
+			"loop": true
+		},
 		"Aim": {
-			"frames": [
-				[16, 0, 16, 32]
-			],
-			"speed": 1.0,
+			"frames": [[16, 0, 16, 32]],
+			"speed": 5,
 			"loop": true
 		},
 		"Throw": {
-			"frames": [
-				[32, 0, 16, 32]
-			],
-			"speed": 1.0,
-			"loop": true
-		},
-		"Idle": {
-			"frames": [
-				[0, 0, 16, 32]
-			],
-			"speed": 1.0,
+			"frames": [[32, 0, 16, 32]],
+			"speed": 5,
 			"loop": true
 		},
 		"Dead": {
 			"frames": [
-				[48, 0, 16, 32], 
+				[48, 0, 16, 32],
 				[64, 0, 16, 32]
 			],
-			"speed": 15.0,
+			"speed": 15,
 			"loop": true
 		}
-	}, 
+	},
 	"variations": {
 		"default": {
 			"source": "RockyWrench.png",
@@ -41,44 +35,44 @@
 		},
 		"GhostHouse": {"link": "Underground"},
 		"Castle": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [160, 0, 80, 32]
 		},
 		"CastleWater": {"link": "Castle"},
 		"Desert": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [240, 0, 80, 32]
 		},
 		"Jungle": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [0, 32, 80, 32]
 		},
 		"Snow": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [80, 32, 80, 32]
 		},
 		"Volcano": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [160, 32, 80, 32]
 		},
 		"Autumn": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [240, 32, 80, 32]
 		},
 		"Beach": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [0, 64, 80, 32]
 		},
 		"Mountain": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [80, 64, 80, 32]
 		},
 		"Space": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [160, 64, 80, 32]
 		},
 		"Bonus": {
-			"source": "RockyWrench.png", 
+			"source": "RockyWrench.png",
 			"rect": [240, 64, 80, 32]
 		}
 	}
