@@ -7,62 +7,7 @@
 		}
 	},
 	"variations": {
-		"default": {
-			"LevelMetadata:BGStyle": {
-				"Waterfall": {
-					"Day": {
-						"source": "Waterfall.png",
-						"animations": {
-							"default": {
-								"frames": [
-									[0, 0, 512, 512],
-									[512, 0, 512, 512],
-									[1024, 0, 512, 512],
-									[1536, 0, 512, 512],
-									[2048, 0, 512, 512],
-									[2560, 0, 512, 512],
-									[3072, 0, 512, 512],
-									[3584, 0, 512, 512]
-								],
-								"speed": 7.0,
-								"loop": true
-							}
-						}
-					},
-					"Night": {
-						"source": "WaterfallNight.png",
-						"animations": {
-							"default": {
-								"frames": [
-									[0, 0, 512, 512],
-									[512, 0, 512, 512],
-									[1024, 0, 512, 512],
-									[1536, 0, 512, 512],
-									[2048, 0, 512, 512],
-									[2560, 0, 512, 512],
-									[3072, 0, 512, 512],
-									[3584, 0, 512, 512]
-								],
-								"speed": 7.0,
-								"loop": true
-							}
-						}
-					}
-				},
-				"Overworld2": {"source": "Overworld2.png"},
-				"Default": {
-					"Day": {"source": "Overworld.png"},
-					"Night": {
-						"config:Overworld Night": {
-							"Original": {"source": "BasicNight.png"},			
-							"Custom": {"source": "OverworldNight.png"}
-						}
-					}
-				},
-				"Desert": {"source": "Desert.png"},
-				"Overworld3": {"source": "Overworld3.png"}
-			}
-		},
+		"default": {"link": "Overworld"},
 		"Overworld": {
 			"LevelMetadata:BGStyle": {
 				"Default": {

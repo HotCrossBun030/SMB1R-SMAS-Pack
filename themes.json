@@ -59,12 +59,11 @@
                             "Level4": {}
                         },
                         "World8": {
-                            "Level1": {},
+                            "Level1": {"time": "Day"},
                             "Level2": {
-                                "RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld", "metadata": {"BGStyle": "BrownHills"}},
-                                "RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
+                                "Overworld": {"time": "Day", "metadata": {"BGStyle": "BrownHills"}}
                             },
-                            "Level3": {"theme": "Overworld", "time": "Night", "music": "Overworld", "metadata": {"BGStyle": "CastleWalls"}},
+                            "Level3": {"time": "Day", "metadata": {"BGStyle": "CastleWalls", "NoCastleWalls": "true"}},
                             "Level4": {
                                 "default": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3, "metadata": {"BGStyle": "FinalCastle"}},
                                 "CastleWater": {"music": "Castle"}
