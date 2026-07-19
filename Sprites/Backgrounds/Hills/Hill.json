@@ -65,7 +65,7 @@
 			}
 		},
 		"Underground": {
-			"RoomType:MainRoom": {
+			"RoomType:Default": {
 				"source": "Underground.png",
 				"animation_overrides": {
 					"default": {
@@ -89,11 +89,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusDefault.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusDefaultWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusDefault.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -101,11 +114,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusMario.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusMarioWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusMario.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -113,11 +139,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusLuigi.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusLuigiWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusLuigi.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -125,11 +164,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusToad.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusToadWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusToad.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -137,11 +189,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusToadette.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusToadetteWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusToadette.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				},
@@ -149,11 +214,24 @@
 					"config:Bonus Alignment": {
 						"4:3": {
 							"source": "BonusRoom/BonusYellowToad.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"rect": [52, 0, 256, 512],
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 256, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						},
 						"Widescreen": {
-							"source": "BonusRoom/BonusYellowToadWide.png",
-							"properties": {"primary_layer_size": [256, 512]}
+							"source": "BonusRoom/BonusYellowToad.png",
+							"animation_overrides": {
+								"default": {
+									"frames": [[0, 0, 464, 512]],
+									"speed": 5,
+									"loop": true
+								}
+							}
 						}
 					}
 				}
