@@ -1,6 +1,11 @@
 {
 	"variations": {
-		"default": {"source": "Overworld.png"},
+		"default": {
+			"LevelMetadata:NoCastleWalls": {
+				"true": {"source": "OverworldNoWalls.png"},
+				"Default": {"source": "Overworld.png"}
+			}
+		},
 		"Underground": {"source": "Underground.png"},
 		"Desert": {"source": "Desert.png"},
 		"Snow": {"source": "Snow.png"},

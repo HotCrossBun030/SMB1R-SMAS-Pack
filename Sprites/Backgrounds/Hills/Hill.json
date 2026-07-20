@@ -7,15 +7,7 @@
 		}
 	},
 	"variations": {
-		"default": {
-			"Day": {"source": "Overworld.png"},
-			"Night": {
-				"config:Overworld Night": {
-					"Original": {"source": "BasicNight.png"},			
-					"Custom": {"source": "OverworldNight.png"}
-				}
-			}
-		},
+		"default": {"link": "Overworld"},
 		"Overworld": {
 			"LevelMetadata:BGStyle": {
 				"Default": {
@@ -61,6 +53,27 @@
 				"CastleWalls": {
 					"Day": {"source": "CastleBush.png"},
 					"Night": {"source": "CastleBushNight.png"}
+				},
+				"Waterfall": {
+					"Day": {
+						"source": "Waterfall.png",
+						"animation_overrides": {
+							"default": {
+								"frames": [
+									[0, 0, 512, 512],
+									[512, 0, 512, 512],
+									[1024, 0, 512, 512],
+									[1536, 0, 512, 512],
+									[0, 512, 512, 512],
+									[512, 512, 512, 512],
+									[1024, 512, 512, 512],
+									[1536, 512, 512, 512]
+								],
+								"speed": 10.0,
+								"loop": true
+							}
+						}
+					}
 				}
 			}
 		},
@@ -85,6 +98,7 @@
 				}
 			},
 			"RoomType:BonusRoom": {
+				"mute_warnings": true,
 				"Character:default": {
 					"config:Bonus Alignment": {
 						"4:3": {

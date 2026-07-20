@@ -1,39 +1,10 @@
 {
-	"options": {
-		"Luigi Sprites": "Custom",
-		"Bonus Alignment": "Widescreen",
-		"Overworld Night": "Custom",
-		"Snow Night": "Custom",
-		"Brick Physics": "All-Stars"
-	},
-	"value_keys": {
-		"Luigi Sprites": [
-			"Original",
-			"Custom"
-		],
-		"Bonus Alignment": [
-			"4:3",
-			"Widescreen"
-		],
-		"Overworld Night": [
-			"Original",
-			"Custom"
-		],
-		"Snow Night": [
-			"Original",
-			"Custom"
-		],
-		"Brick Physics": [
-			"All-Stars",
-			"Fixed"
-		]
-	},
 	"option_descs": {
 		"Luigi Sprites": [
 			"Uses the original sprites from All-Stars SMB1, with only minimal edits to Luigi's sprites.",
 			"Uses edited sprites based on All-Stars SMB3, making Luigi generally taller amongst other tweaks."
 		],
-		"Bonus Alignment": "Used to align the character heads on the background because of parallax.",
+		"Bonus Alignment": "Used to allign the characters head, due to parallax",
 		"Overworld Night": [
 			"Uses the original game's unique Night BG for Night Overworld levels; matching the original game.",
 			"Uses a recolor of the Day BG for Night Overworld levels; matching Super Mario Bros. Remastered."
@@ -45,6 +16,40 @@
 		"Brick Physics": [
 			"On Classic Physics only, Hitting Bricks works the same way it does in the original All-Stars.",
 			"On Classic Physics only, Hitting Bricks is fixed and properly sends the player down like on the NES."
+		]
+	},
+	"options": {
+		"Bonus Alignment": "Widescreen",
+		"Brick Physics": "Fixed",
+		"Classic Themes": "Disabled",
+		"Luigi Sprites": "Custom",
+		"Overworld Night": "Original",
+		"Snow Night": "Original"
+	},
+	"value_keys": {
+		"Bonus Alignment": [
+			"4:3",
+			"Widescreen"
+		],
+		"Brick Physics": [
+			"All-Stars",
+			"Fixed"
+		],
+		"Classic Themes": [
+			"Enabled",
+			"Disabled"
+		],
+		"Luigi Sprites": [
+			"Original",
+			"Custom"
+		],
+		"Overworld Night": [
+			"Original",
+			"Custom"
+		],
+		"Snow Night": [
+			"Original",
+			"Custom"
 		]
 	}
 }

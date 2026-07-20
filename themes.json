@@ -1,26 +1,82 @@
 {
-	"variations": {
-		"RoomType:TitleScreen": {
-			"SMB1": {
-				"World8": {"theme": "Overworld", "time": "Night"}
-			}
-		},
-		"RoomType:Default": {
-			"GameMode:Default": {
-				"SMB1": {
-					"World8": {
-						"Level2": {
-							"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld", "metadata": {"BGStyle": "BrownHills"}},
-							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"}
-						},
-						"Level3": {"theme": "Overworld", "time": "Night", "music": "Overworld", "metadata": {"BGStyle": "CastleWalls"}},
-						"Level4": {
-							"default": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3, "metadata": {"BGStyle": "FinalCastle"}},
-							"CastleWater": {"music": "Castle"}
-						}
-					}
-				}
-			}
-		}
-	}
+    "variations": {
+        "config:Classic Themes": {
+            "Enabled": {
+                "default": {
+                    "SMB1": {
+                        "World1": {
+                            "Level1": {},
+                            "Level3": {"primary_bg": 0, "secondary_bg": 0, "metadata": {"BGStyle": "Waterfall"}}
+                        },
+                        "World2": {
+                            "Level1": {"theme": "Overworld", "music": "Overworld", "metadata": {"BGStyle": "TallHills"}},
+                            "Level2": {
+                                "RoomType:PipeCutscene": {"theme": "Overworld", "liquid": 0},
+                                "RoomType:SublevelExit": {"theme": "Overworld", "music": "Overworld", "liquid": 0}
+                            },
+                            "Level3": {"theme": "Overworld", "music": "Overworld", "liquid": 0, "metadata": {"BGStyle": "Pillars"}}
+                        },
+                        "World3": {
+                            "Level1": {"theme": "Snow", "time": "Night", "music": "Overworld", "particles": 1},
+                            "Level2": {"link": "Level1"},
+                            "Level3": {"theme": "Overworld", "time": "Night", "music": "Overworld", "primary_bg": 2, "particles": 0, "secondary_bg": 0, "secondary_bg_metadata": {"Style": "Waterfall"}},
+                            "Level4": {}
+                        },
+                        "World4": {
+                            "Level1": {"theme": "Overworld", "music": "Overworld", "particles": 0, "metadata": {"BGStyle": "HillsnTrees"}},
+                            "Level2": {
+                                "RoomType:PipeCutscene": {"theme": "Overworld"},
+                                "RoomType:CoinHeaven": {"theme": "Overworld", "music": "Overworld", "primary_bg": 2},
+                                "RoomType:SublevelExit": {"theme": "Overworld", "music": "Overworld"}
+                            },
+                            "Level3": {"theme": "Overworld", "music": "Overworld", "primary_bg": 2},
+                            "Level4": {}
+                        },
+                        "World5": {
+                            "Level1": {"theme": "Snow", "time": "Day", "music": "Overworld", "particles": 1},
+                            "Level2": {"link": "Level1"},
+                            "Level3": {"theme": "Overworld", "time": "Day", "music": "Overworld", "particles": 0, "secondary_bg": 0, "metadata": {"BGStyle": "Waterfall"}, "primary_bg": 0},
+                            "Level4": {}
+                        },
+                        "World6": {
+                            "Level1": {"theme": "Overworld", "music": "Overworld", "particles": 0},
+                            "Level2": {"link": "Level1"},
+                            "Level3": {"theme": "Overworld", "music": "Overworld", "primary_bg": 2, "secondary_bg": 0, "particles": 0},
+                            "Level4": {}
+                        },
+                        "World7": {
+                            "Level1": {"theme": "Snow", "time": "Day", "music": "Overworld", "primary_bg": 0, "extra_bgm": "Snow", "particles": 1},
+                            "Level2": {
+                                "RoomType:PipeCutscene": {"theme": "Overworld", "time": "Day", "primary_bg": 2, "liquid": 0},
+                                "RoomType:MainRoom": {"time": "Day", "theme": "Underwater"},
+                                "RoomType:SublevelExit": {"theme": "Overworld", "time": "Day", "music": "Overworld", "liquid": 0}
+                            },
+                            "Level3": {"theme": "Overworld", "time": "Day", "music": "Overworld", "primary_bg": 0, "metadata": {"BGStyle": "Pillars"}},
+                            "Level4": {}
+                        },
+                        "World8": {
+                            "Level1": {"time": "Day"},
+                            "Level2": {"time": "Day", "metadata": {"BGStyle": "BrownHills"}},
+                            "Level3": {"time": "Day", "metadata": {"BGStyle": "CastleWalls", "NoCastleWalls": true}}
+                        }
+                    }
+                },
+                "Underground": {},
+                "Underwater": {"time": "Day"},
+                "Castle": {
+                    "World1": {},
+                    "World8": {"metadata": {"BGStyle": "FinalCastle"}}
+                }
+            },
+            "Disabled": {
+                "SMB1": {
+                    "World8": {
+                        "Level2": {"metadata": {"BGStyle": "BrownHills"}},
+                        "Level3": {"metadata": {"BGStyle": "CastleWalls", "NoCastleWalls": "true"}},
+                        "Level4": {"metadata": {"BGStyle": "FinalCastle"}}
+                    }
+                }
+            }
+        }
+    }
 }

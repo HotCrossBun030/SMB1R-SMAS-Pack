@@ -1,13 +1,21 @@
 {
 	"variations": {
 		"default": {
-			"Day": {
-				"source": "OverworldDeco.png",
-				"rect": [0, 0, 80, 32]
-			},
-			"Night": {
-				"source": "OverworldDeco.png",
-				"rect": [0, 32, 80, 32]
+			"config:Overworld Night": {
+				"Original": {
+					"source": "OverworldDeco.png",
+					"rect": [0, 0, 80, 32]
+				},
+				"Custom": {		
+					"Day": {
+						"source": "OverworldDeco.png",
+						"rect": [0, 0, 80, 32]
+					},
+					"Night": {
+						"source": "OverworldDeco.png",
+						"rect": [0, 32, 80, 32]
+					}
+				}
 			}
 		},
 		"Underground": {"source": "UndergroundDeco.png"},
