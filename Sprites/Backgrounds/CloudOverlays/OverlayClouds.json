@@ -1,34 +1,19 @@
 {
 	"variations": {
-		"Day": {
-			"default": {
-				"source": "CloudOverlay.png",
-				"animations": {
-					"default": {
-						"frames": [
-							[0, 0, 512, 512],
-							[512, 0, 512, 512], 
-							[1024, 0, 512, 512],
-							[512, 0, 512, 512]
-						],
-						"speed": 4,
-						"loop": true
-					}
+		"default": {
+			"source": "CloudOverlay.png",
+			"animations": {
+				"default": {
+					"frames": [
+						[0, 0, 512, 512],
+						[512, 0, 512, 512], 
+						[1024, 0, 512, 512],
+						[512, 0, 512, 512]
+					],
+					"speed": 4,
+					"loop": true
 				}
-			},
-			"Underground": {"source": "UndergroundCloudOverlay.png"},
-			"Beach": {"source": "BeachCloudOverlay.png"},
-			"Autumn": {"source": "AutumnCloudOverlay.png"},
-			"Space": {"source": "NightCloudOverlay.png"},
-			"Volcano": {"source": "VolcanoCloudOverlay.png"},
-			"GhostHouse": {"link": "Underground"}
-		},
-		"Night": {
-			"default": {"source": "NightCloudOverlay.png"},
-			"Underground": {"source": "UndergroundCloudOverlay.png"},
-			"Autumn": {"source": "AutumnNightCloudOverlay.png"},
-			"Volcano": {"source": "VolcanoCloudOverlay.png"},
-			"GhostHouse": {"link": "Underground"}
+			}
 		}
 	}
 }

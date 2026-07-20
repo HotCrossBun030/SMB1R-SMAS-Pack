@@ -19,12 +19,12 @@
 		]
 	},
 	"options": {
-		"Bonus Alignment": "4:3",
+		"Bonus Alignment": "Widescreen",
 		"Brick Physics": "Fixed",
-		"Classic Themes": "Enabled",
+		"Classic Themes": "Disabled",
 		"Luigi Sprites": "Custom",
 		"Overworld Night": "Original",
-		"Snow Night": "Custom"
+		"Snow Night": "Original"
 	},
 	"value_keys": {
 		"Bonus Alignment": [

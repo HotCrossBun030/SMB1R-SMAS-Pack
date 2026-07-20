@@ -53,6 +53,27 @@
 				"CastleWalls": {
 					"Day": {"source": "CastleBush.png"},
 					"Night": {"source": "CastleBushNight.png"}
+				},
+				"Waterfall": {
+					"Day": {
+						"source": "Waterfall.png",
+						"animation_overrides": {
+							"default": {
+								"frames": [
+									[0, 0, 512, 512],
+									[512, 0, 512, 512],
+									[1024, 0, 512, 512],
+									[1536, 0, 512, 512],
+									[0, 512, 512, 512],
+									[512, 512, 512, 512],
+									[1024, 512, 512, 512],
+									[1536, 512, 512, 512]
+								],
+								"speed": 10.0,
+								"loop": true
+							}
+						}
+					}
 				}
 			}
 		},
