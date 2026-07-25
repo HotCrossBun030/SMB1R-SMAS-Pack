@@ -14,43 +14,11 @@
 			"Airship": {"link": "Skyland"},
 			"Underwater": {
 				"source": "WaterSky.png",
-				"properties": {"sky_scroll_speed": 0},
-				"animations": {"default": {
-					"frames": [
-						[0, 0, 512, 512],
-						[512, 0, 512, 512],
-						[1024, 0, 512, 512],
-						[1536, 0, 512, 512],
-						[2048, 0, 512, 512],
-						[2048, 0, 512, 512],
-						[1536, 0, 512, 512],
-						[1024, 0, 512, 512],
-						[512, 0, 512, 512],
-						[0, 0, 512, 512]
-					],
-					"speed": 5,
-					"loop": true
-				}}
+				"properties": {"sky_scroll_speed": 0}
 			},
 			"CastleWater": {
-				"source": "CastleWaterSky.png",
-				"properties": {"sky_scroll_speed": 0},
-				"animations": {"default": {
-					"frames": [
-						[0, 0, 512, 512],
-						[512, 0, 512, 512],
-						[1024, 0, 512, 512],
-						[1536, 0, 512, 512],
-						[2048, 0, 512, 512],
-						[2048, 0, 512, 512],
-						[1536, 0, 512, 512],
-						[1024, 0, 512, 512],
-						[512, 0, 512, 512],
-						[0, 0, 512, 512]
-					],
-					"speed": 5,
-					"loop": true
-				}}
+				"source": "VoidierVoid.png",
+				"properties": {"sky_scroll_speed": 0}
 			},
 			"Space": {
 				"source": "SpaceStars.png",
@@ -82,24 +50,8 @@
 				}}
 			},
 			"Underwater": {
-				"source": "NightWaterSky.png",
-				"properties": {"sky_scroll_speed": 0},
-				"animations": {"default": {
-					"frames": [
-						[0, 0, 512, 512],
-						[512, 0, 512, 512],
-						[1024, 0, 512, 512],
-						[1536, 0, 512, 512],
-						[2048, 0, 512, 512],
-						[2048, 0, 512, 512],
-						[1536, 0, 512, 512],
-						[1024, 0, 512, 512],
-						[512, 0, 512, 512],
-						[0, 0, 512, 512]
-					],
-					"speed": 5,
-					"loop": true
-				}}
+				"source": "VoidierVoid.png",
+				"properties": {"sky_scroll_speed": 0}
 			},
 			"CastleWater": {"link": "Underwater"},
 			"Space": {

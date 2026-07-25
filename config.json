@@ -1,27 +1,31 @@
 {
 	"option_descs": {
-		"Luigi Sprites": [
-			"Uses the original sprites from All-Stars SMB1, with only minimal edits to Luigi's sprites.",
-			"Uses edited sprites based on All-Stars SMB3, making Luigi generally taller amongst other tweaks."
+		"Bonus Alignment": "This background can't be universally centered due to how resolutions work. Set to your preferred resolution.",
+		"Brick Physics": [
+			"Classic Physics only, Hitting Bricks works like it does in All-Stars SMB1.",
+			"Classic Physics only, Hitting Bricks properly works like on the NES."
 		],
-		"Bonus Alignment": "Used to allign the characters head, due to parallax",
+		"Classic Themes": [
+			"Campaigns use the same themes as in Base SMB1R. SMB1-Only.",
+			"Campaigns use the same themes as in the original games. SMB1-Only."
+		],
+		"Luigi Sprites": [
+			"Luigi's original All-Stars SMB1 sprites, with minimal edits.",
+			"New sprites based on All-Stars SMB3, with Luigi being taller."
+		],
 		"Overworld Night": [
-			"Uses the original game's unique Night BG for Night Overworld levels; matching the original game.",
-			"Uses a recolor of the Day BG for Night Overworld levels; matching Super Mario Bros. Remastered."
+			"Overworld Night uses a singular unique Night BG from the original game.",
+			"Overworld Night Uses multiple recolors of its Day BGs; matching Base SMB1R."
 		],
 		"Snow Night": [
-			"Uses the original game's unique Night BG for Night Snow levels; matching the original game.",
-			"Uses a recolor of the Day BG for Night Snow levels; matching Super Mario Bros. Remastered."
-		],
-		"Brick Physics": [
-			"On Classic Physics only, Hitting Bricks works the same way it does in the original All-Stars.",
-			"On Classic Physics only, Hitting Bricks is fixed and properly sends the player down like on the NES."
+			"Snow Night uses a unique Night BG from the original game.",
+			"Snow Night uses a recolor of its Day BG; matching Base SMB1R."
 		]
 	},
 	"options": {
 		"Bonus Alignment": "Widescreen",
 		"Brick Physics": "Fixed",
-		"Classic Themes": "Enabled",
+		"Classic Themes": "Disabled",
 		"Luigi Sprites": "Custom",
 		"Overworld Night": "Custom",
 		"Snow Night": "Custom"
@@ -36,8 +40,8 @@
 			"Fixed"
 		],
 		"Classic Themes": [
-			"Enabled",
-			"Disabled"
+			"Disabled",
+			"Enabled"
 		],
 		"Luigi Sprites": [
 			"Original",

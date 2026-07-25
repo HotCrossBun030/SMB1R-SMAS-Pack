@@ -1,19 +1,116 @@
 {
 	"variations": {
-		"default": {
-			"source": "CloudOverlay.png",
-			"animations": {
-				"default": {
-					"frames": [
-						[0, 0, 512, 512],
-						[512, 0, 512, 512], 
-						[1024, 0, 512, 512],
-						[512, 0, 512, 512]
-					],
-					"speed": 4,
-					"loop": true
+		"Day": {
+			"default": {
+				"source": "CloudOverlay.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 4,
+						"loop": true
+					}
 				}
-			}
+			},
+			"Underground": {
+				"source": "CloudOverlay.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 4,
+						"loop": true
+					}
+				}
+			},
+			"Underwater": {
+				"source": "WaterOverlay.png",
+				"blend": "add",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[2048, 0, 512, 512],
+							[1536, 0, 512, 512],
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512],
+							[0, 0, 512, 512]
+						],
+						"speed": 5,
+						"loop": true
+					}
+				}
+			},
+			"Beach": {"source": "BeachCloudOverlay.png"},
+			"Autumn": {"source": "AutumnCloudOverlay.png"},
+			"Space": {"source": "NightCloudOverlay.png"},
+			"Volcano": {"source": "VolcanoCloudOverlay.png"},
+			"GhostHouse": {"link": "Underground"},
+			"CastleWater": {"link": "Underwater"}
+		},
+		"Night": {
+			"default": {
+				"source": "CloudOverlay.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 4,
+						"loop": true
+					}
+				}
+			},
+			"Underground": {
+				"source": "CloudOverlay.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 4,
+						"loop": true
+					}
+				}
+			},
+			"Underwater": {
+				"source": "NightWaterOverlay.png",
+				"blend": "add",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 512, 512],
+							[512, 0, 512, 512], 
+							[1024, 0, 512, 512],
+							[512, 0, 512, 512]
+						],
+						"speed": 4,
+						"loop": true
+					}
+				}
+			},
+			"Autumn": {"source": "AutumnNightCloudOverlay.png"},
+			"Volcano": {"source": "VolcanoCloudOverlay.png"},
+			"GhostHouse": {"link": "Underground"},
+			"CastleWater": {"link": "Underwater"}
 		}
 	}
 }
