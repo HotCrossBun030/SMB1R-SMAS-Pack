@@ -144,6 +144,8 @@
 									"RoomType:SublevelExit": {}
 								}
 							},
+							"World3": {},
+							"World4": {},
 							"World5": {
 								"Level2": {
 									"RoomType:MainRoom": {},
