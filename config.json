@@ -26,9 +26,9 @@
 		"Bonus Alignment": "Widescreen",
 		"Brick Physics": "Fixed",
 		"Classic Themes": "Disabled",
-		"Luigi Sprites": "Original",
+		"Luigi Sprites": "Custom",
 		"Overworld Night": "Custom",
-		"Snow Night": "Original"
+		"Snow Night": "Custom"
 	},
 	"value_keys": {
 		"Bonus Alignment": [
