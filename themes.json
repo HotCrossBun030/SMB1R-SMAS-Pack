@@ -48,7 +48,8 @@
 									"RoomType:PipeCutscene": {"theme": "Overworld", "liquid": 0},
 									"RoomType:SublevelExit": {"theme": "Overworld", "music": "Overworld", "liquid": 0}
 								},
-								"Level3": {"theme": "Overworld", "music": "Overworld", "extra_bgm": "Athletic", "liquid": 0, "metadata": {"BGStyle": "Pillars"}}
+								"Level3": {"theme": "Overworld", "music": "Overworld", "extra_bgm": "Athletic", "liquid": 0, "metadata": {"BGStyle": "Pillars"}},
+								"Level4": {}
 							},
 							"World3": {
 								"Level1": {
@@ -144,6 +145,8 @@
 									"RoomType:SublevelExit": {}
 								}
 							},
+							"World3": {},
+							"World4": {},
 							"World5": {
 								"Level2": {
 									"RoomType:MainRoom": {},
