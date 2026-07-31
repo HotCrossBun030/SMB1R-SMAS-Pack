@@ -16,10 +16,6 @@
 			"source": "SuperStar.png",
 			"rect": [0, 0, 64, 16]
 		},
-		"SMBS": {
-			"source": "SuperStar.png",
-			"rect": [0, 16, 64, 16]
-		},
 		"SMBANN": {"source": "DiscoStar.png"}
 	}
 }
