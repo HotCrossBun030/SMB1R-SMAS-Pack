@@ -11,12 +11,12 @@
 		}
 	},
 	"variations": {
-		"default": {
-			"source": "BridgeAxe.png", 
+		"SMB1": {
+			"source": "BridgeAxe.png",
 			"rect": [0, 0, 48, 16]
 		},
 		"SMBANN": {
-			"source": "DiscoAxe.png", 
+			"source": "DiscoAxe.png",
 			"rect": [0, 0, 48, 16]
 		}
 	}

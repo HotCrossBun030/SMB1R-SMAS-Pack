@@ -15,7 +15,16 @@
 		}
 	},
 	"variations": {
-		"source": "BobOmb.png",
-		"rect": [0, 112, 48, 16]
+		"default": {
+			"source": "BobOmb.png",
+			"rect": [0, 112, 48, 16]
+		},
+		"Underground": {
+			"source": "BobOmb.png",
+			"rect": [0, 128, 48, 16]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {"link": "Underground"},
+		"CastleWater": {"link": "Underground"},
 	}
 }
