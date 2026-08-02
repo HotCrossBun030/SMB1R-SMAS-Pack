@@ -20,5 +20,17 @@
 			"loop": false
 		}
 	},
-	"variations": {"source": "Spike.png"}
+	"variations": {
+		"default": {
+			"source": "Spike.png",
+			"rect": [0, 0, 96, 24]
+		},
+		"Underground": {
+			"source": "Spike.png",
+			"rect": [0, 16, 96, 24]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {"link": "Underground"},
+		"CastleWater": {"link": "Underground"}
+	}
 }
