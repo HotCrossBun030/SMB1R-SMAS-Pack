@@ -8,8 +8,7 @@
 		}
 	},
 	"variations": {
-			"source": "SpikeBall.png",
-			"rect": [0, 0, 16, 16]
-		}
+		"source": "SpikeBall.png",
+		"rect": [0, 0, 16, 16]
 	}
 }

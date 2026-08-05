@@ -31,7 +31,10 @@
 			}
 		},
 		"Snow": {
-			"SMB1": {"link": "default"},
+			"SMB1": {
+				"source": "PiranhaPlant.png",
+				"rect": [0, 0, 32, 24]
+			},
 			"SMBANN": {
 				"source": "DiscoPiranha.png",
 				"rect": [0, 48, 32, 24]
