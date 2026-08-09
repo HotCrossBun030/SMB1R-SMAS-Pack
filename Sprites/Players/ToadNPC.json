@@ -138,16 +138,8 @@
 				"rect": [128, 32, 64, 32]
 			},
 			"World7": {
-				"choices": [
-					{
-						"source": "DiscoNPCs.png",
-						"rect": [0, 64, 64, 32]
-					},
-					{
-						"source": "DiscoNPCs.png",
-						"rect": [64, 64, 64, 32]
-					}
-				]
+				"source": "DiscoNPCs.png",
+				"rect": [0, 64, 64, 32]
 			},
 			"World8": {
 				"source": "DiscoNPCs.png",
