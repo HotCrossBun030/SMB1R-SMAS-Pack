@@ -17,7 +17,7 @@
 				}
 			},
 			"Underground": {
-				"source": "CloudOverlay.png",
+				"source": "UndergroundCloudOverlay.png",
 				"animations": {
 					"default": {
 						"frames": [
@@ -62,7 +62,7 @@
 		},
 		"Night": {
 			"default": {
-				"source": "CloudOverlay.png",
+				"source": "NightCloudOverlay.png",
 				"animations": {
 					"default": {
 						"frames": [
@@ -77,7 +77,7 @@
 				}
 			},
 			"Underground": {
-				"source": "CloudOverlay.png",
+				"source": "UndergroundCloudOverlay.png",
 				"animations": {
 					"default": {
 						"frames": [
