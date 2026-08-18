@@ -252,8 +252,14 @@
 			}
 		},
 		"Desert": {
-			"Day": {"source": "Desert.png"},
-			"Night": {"source": "DesertNight.png"}
+			"SMB1": {
+				"Day": {"source": "Desert.png"},
+				"Night": {"source": "DesertNight.png"}
+			},
+			"SMBANN": {
+				"Day": {"source": "DesertANN.png"},
+				"Night": {"source": "DesertNightANN.png"}
+			},
 		},
 		"Snow": {
 			"Day": {"source": "Snow.png"},

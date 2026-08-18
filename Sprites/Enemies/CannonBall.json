@@ -9,46 +9,7 @@
 			"rect": [16, 0, 16, 16]
 		},
 		"GhostHouse": {"link": "Underground"},
-		"Castle": {
-			"source": "CannonBall.png",
-			"rect": [32, 0, 16, 16]
-		},
-		"CastleWater": {"link": "Castle"},
-		"Desert": {
-			"source": "CannonBall.png",
-			"rect": [48, 0, 16, 16]
-		},
-		"Jungle": {
-			"source": "CannonBall.png",
-			"rect": [0, 16, 16, 16]
-		},
-		"Snow": {
-			"source": "CannonBall.png",
-			"rect": [16, 16, 16, 16]
-		},
-		"Volcano": {
-			"source": "CannonBall.png",
-			"rect": [32, 16, 16, 16]
-		},
-		"Autumn": {
-			"source": "CannonBall.png",
-			"rect": [48, 16, 16, 16]
-		},
-		"Beach": {
-			"source": "CannonBall.png",
-			"rect": [0, 32, 16, 16]
-		},
-		"Mountain": {
-			"source": "CannonBall.png",
-			"rect": [16, 32, 16, 16]
-		},
-		"Space": {
-			"source": "CannonBall.png",
-			"rect": [32, 32, 16, 16]
-		},
-		"Bonus": {
-			"source": "CannonBall.png",
-			"rect": [48, 32, 16, 16]
-		}
+		"Castle": {"link": "Underground"},
+		"CastleWater": {"link": "Underground"}
 	}
 }

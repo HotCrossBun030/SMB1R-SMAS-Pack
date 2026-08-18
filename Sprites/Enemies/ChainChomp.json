@@ -9,35 +9,5 @@
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "ChainChomp.png",
-			"rect": [0, 0, 32, 16]
-		},
-		"Underground": {
-			"source": "ChainChomp.png",
-			"rect": [32, 0, 32, 16]
-		},
-		"GhostHouse": {"link": "Underground"},
-		"Castle": {
-			"source": "ChainChomp.png",
-			"rect": [0, 0, 32, 16]
-		},
-		"Snow": {
-			"source": "ChainChomp.png",
-			"rect": [32, 16, 32, 16]
-		},
-		"Space": {
-			"source": "ChainChomp.png",
-			"rect": [0, 32, 32, 16]
-		},
-		"Volcano": {
-			"source": "ChainChomp.png",
-			"rect": [0, 32, 32, 16]
-		},
-		"Bonus": {
-			"source": "ChainChomp.png",
-			"rect": [0, 48, 32, 16]
-		}
-	}
+	"variations": {"source": "ChainChomp.png", "rect": [0, 0, 32, 16]}
 }
