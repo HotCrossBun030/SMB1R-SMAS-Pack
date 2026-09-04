@@ -1,43 +1,118 @@
-SMAS Pack Credits Document, in no particular order (It's just the people who have contributed to the pack, have stuff in the pack, etc...)
+SMAS Pack Credits Document
+Organized in sections; with as best organization as I can provide.
 
-- Nintendo (obviously)
-- JoeMama
+PACK LEAD
 - Hot Cross Bun
-- Glacial
-- amer
-- hdtv
-- SkyanUltra
+
+Terrain
+- Hot Cross Bun
 - SamButSam
 - Crafink
-- TomAndTheCats
-- Walmaker
-- Blindspuut
-- LadiesMan217
 - hazel.
-- MoonHare
+- amer241
+- hdtv
+- Zugar
+- SkyanUltra
+- KirbyKidJ
 - Heavenice
+
+Deco
+- Hot Cross Bun
+- amer241
+- hdtv
+- Heavenice
+
+Misc. Tiles
+- Hot Cross Bun
+- hdtv
+- Tristan35
+
+BGs
+- Glacial
+- Hot Cross Bun
+- SamButSam
+- Crafink
+- amer241
+- hdtv
+- Walmaker1987
+- Heavenice
+- Alexsanty
+- TomAndTheCats
+
+Blocks
+- amer241
+
+Enemies
+- FungiCaptain
+- Hot Cross Bun
+- amer241
+
+Items
+- Lucca
+- Hot Cross Bun
+- amer241
+- Heavenice
+- Flicky1211
+
+Players
+- Glacial
+- Lucca
+- FungiCaptain
+- MultilmSR
+
+NPCs
+- Glacial
+
+Particles
+- Hot Cross Bun
+- amer241
+- hdtv
+- Heavenice
+- JoeMama
+
+UI
+- Glacial
+- FungiCaptain
+- Hot Cross Bun
+- SamButSam
+- amer241
+- Heavenice
+- DrTieg
+- Uncle D
+- Test/TSCM4790
+- MisaeRockabout!
+- Vinci3000
+- Keyboard
+- FJ
+- Fanulite
+- Ohthatguy
+
+Music
+- LadiesMan217
+
+SFX
+- LadiesMan217
+- Nathan Silver
+- blokos
+- Quadrillage
+- SlimenX
+- Flicky1211
+- Rob
+
+Misc. Credits
+- Tristan35 [Bonus BG Implimentation, lifted from their Construct SMAS Pack]
+- Nintendo [Super Mario All-Stars]
+- JoeMama [Base SMB1R and Classic Theme Config, alongside help on several other things]
+- Calico Stonewolf [Pack Icon]
+- Ohthatguy [Pack Description]
+
+Other/Future Contributors
+- Blindspuut
 - Zuryfurr
 - aloelucidity
-- Quadrillage
-- Rob
 - pacmac293
 - cubeston
-- Flicky1211
-- SlimenX
 - SlashStrikeZ136
 - loygee
 - July2612
-- blokos
-- Nathan Silver
 - Startube
-- KirbyKidJ
-- FJ
-- MultilmSR
-- Alexesanty
-- Calico Stonewolf
-- MisaeRockabout!
-- Test
-- Vinci3000
-- Ohthatguy
-
-i probably missed like 50 more people :sob_dramatic:

@@ -1,0 +1,28 @@
+Hello! This is to guide you on making your own custom character compatibility with packs, or fix compatibility for existing ones on your end.
+
+First off, if you want to make it so a character automatically switches 
+Note that these instructions in particular can apply to any resource pack that exists, not just SMAS Pack.
+
+1. Copy either your Custom Character folder, or one of the player folders.
+2. Put the copy in Players/CustomCharacters (If this folder doesn't exist, simply make one yourself)
+3. Make sure the folder matches the same name as the Custom Character you want compatibility for.
+4. Create the custom character like you normally would. Tutorials for this process already exist.
+5. If done correctly, loading the character in-game with the pack enabled should display unique sprites.
+
+Now, if you encounter any parsing errors with other assets in the pack you added your character to, it is a pack error due to said elements not having a "default" value to fallback on.
+I suggest you go over to said pack's page and point out any errors regarding this, while also adding the default value to anything missing it.
+
+Exclusive to SMAS Pack are Underground Bonus Room backgrounds. These change based on who you play as.
+By default, unsupported custom characters will display a Mystery Mushroom, but if you want to change this, follow these steps:
+
+1. Go to Sprites/Backgrounds/Hills/BonusRoom, this is where all Bonus BGs are stored.
+2. Duplicate TemplateBonus.png, and rename it to Bonus[CharName].png. Unlike other cases, this doesn't need to match the folder name.
+3. Open it up in an image editing software, and make your bonus sprite. It's recommended you stay within the border so the positioning is right, but larger sprites are fine.
+4. Once done, save it, and open up Hill.json in the preceeding folder. You want to search for the Underground Background.
+5. Add a new BonusRoom variation for your character, using the newly-created image. MAKE SURE IT MATCHES THE FOLDER NAME OF YOUR CHARACTER, ELSE IT WON'T WORK!
+6. Save the .json, load up 1-1, go in the bonus room, and if everything worked correctly, it should display with your character. If you get .json errors at any point, make sure to fix them accordingly.
+
+Finally, if you have a character that doesn't match with the filename here, re-name the accociated folder and variation in Hill.json and it should work.
+For instance; if Your "Yellow Toad" character folder is instead called "YellowToad", Rename both accordingly.
+
+Hopefully, this helps with any problems you might have when adding new characters to packs!
