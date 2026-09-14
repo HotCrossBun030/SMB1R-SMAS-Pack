@@ -1,0 +1,14 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 32, 160],
+				[32, 0, 32, 160],
+				[64, 0, 32, 160]
+			],
+			"speed": 8,
+			"loop": true
+		}
+	},
+	"variations": {"source": "AnniversaryNumbers.png"}
+}
