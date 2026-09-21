@@ -50,6 +50,7 @@ Enemies
 
 Items
 - Lucca
+- FungiCaptain
 - Hot Cross Bun
 - amer241
 - Heavenice
