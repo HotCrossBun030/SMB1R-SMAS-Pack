@@ -32,8 +32,14 @@
 			"rect": [0, 64, 16, 16]
 		},
 		"Garden": {
-			"source": "Garden.png",
-			"rect": [0, 64, 16, 16]
+			"SMB1": {
+				"source": "Garden.png",
+				"rect": [0, 64, 16, 16]
+			},
+			"SMBS": {
+				"source": "GardenSP.png",
+				"rect": [0, 64, 16, 16]
+			}
 		},
 		"Mountain": {
 			"source": "Mountain.png",
