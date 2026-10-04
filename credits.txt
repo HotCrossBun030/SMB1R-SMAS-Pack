@@ -24,6 +24,7 @@ Deco
 
 Misc. Tiles
 - Hot Cross Bun
+- Crafink
 - hdtv
 - Tristan35
 
@@ -46,7 +47,11 @@ Blocks
 Enemies
 - FungiCaptain
 - Hot Cross Bun
+- SamButSam
+- Crafink
 - amer241
+- Zuryfurr
+- JosueCr4ft
 
 Items
 - Lucca
@@ -110,7 +115,6 @@ Misc. Credits
 
 Other/Future Contributors
 - Blindspuut
-- Zuryfurr
 - aloelucidity
 - pacmac293
 - cubeston
