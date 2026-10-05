@@ -1,6 +1,10 @@
 {
 	"option_descs": {
 		"Bonus Alignment": "This background can't be universally centered due to how resolutions work. Set to your preferred resolution.",
+		"Coin Heaven Theme": [
+			"Coin Heavens use the Star theme like in NES SMB1.",
+			"Coin Heavens use the Bonus theme like in All-Stars."
+		],
 		"Brick Physics": [
 			"Classic Physics only, Hitting Bricks works like it does in All-Stars SMB1.",
 			"Classic Physics only, Hitting Bricks properly works like on the NES."
@@ -24,6 +28,7 @@
 	},
 	"options": {
 		"Bonus Alignment": "Widescreen",
+		"Coin Heaven Theme": "Bonus",
 		"Brick Physics": "Fixed",
 		"Classic Themes": "Disabled",
 		"Luigi Sprites": "Custom",
@@ -34,6 +39,10 @@
 		"Bonus Alignment": [
 			"4:3",
 			"Widescreen"
+		],
+		"Coin Heaven Theme": [
+			"Star",
+			"Bonus"
 		],
 		"Brick Physics": [
 			"All-Stars",

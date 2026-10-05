@@ -30,7 +30,12 @@
 				},
 				"Pillars": {
 					"Day": {"source": "Desert.png"},
-					"Night": {"source": "DesertNight.png"}
+					"Night": {
+						"config:Overworld Night": {
+							"Original": {"source": "BasicNight.png"},			
+							"Custom": {"source": "DesertNight.png"}
+						}
+					}
 				},
 				"HillsnTrees": {
 					"Day": {"source": "HillsnTrees.png"},

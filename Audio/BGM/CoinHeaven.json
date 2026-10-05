@@ -1,1 +1,10 @@
-{"variations": {"source": "CoinHeaven.bgm"}}
+{
+	"variations": {
+		"default": {
+			"config:Coin Heaven Theme": {
+				"Star": {"source": "CoinHeaven.bgm"},			
+				"Bonus": {"source": "Bonus.bgm"}
+			}
+		}
+	}
+}

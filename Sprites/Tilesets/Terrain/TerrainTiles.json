@@ -16,7 +16,12 @@
 			"SMBS": {"source": "GardenSP.png"}
 		},
 		"Mountain": {"source": "Mountain.png"},
-		"Skyland": {"source": "Sky.png"},
+		"Skyland": {
+			"LevelMetadata:NoCastleWalls": {
+				"true": {"source": "SkyNoWalls.png"},
+				"Default": {"source": "Sky.png"}
+			}
+		},
 		"Autumn": {"source": "Autumn.png"},
 		"Pipeland": {"source": "PipeLand.png"},
 		"Space": {"source": "Space.png"},
