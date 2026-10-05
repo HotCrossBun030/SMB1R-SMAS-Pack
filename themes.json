@@ -15,7 +15,7 @@
 					},
 					"SMBLL": {
 						"World1": {"theme": "Overworld", "time": "Day"},
-						"World2": {"theme": "Overworld", "time": "Night", "metadata": {"BGStyle": "Pillars"}},
+						"World2": {"theme": "Overworld", "time": "Night"},
 						"World3": {"theme": "Snow", "time": "Day"},
 						"World4": {"theme": "Overworld", "time": "Day", "metadata": {"BGStyle": "HillsnTrees"}},
 						"World5": {"theme": "Snow", "time": "Day"},
@@ -48,7 +48,7 @@
 						"World5": {"theme": "Desert", "time": "Night"},
 						"World6": {"theme": "Snow", "time": "Night"},
 						"World7": {"theme": "Jungle", "time": "Night"},
-						"World8": {"theme": "Overworld", "time": "Night"},
+						"World8": {"theme": "Overworld", "time": "Night", "metadata": {"BGStyle": "TallHills"}},
 						"World9": {"theme": "Space", "time": "Night"},
 						"World10": {"theme": "Autumn", "time": "Day"},
 						"World11": {"theme": "Pipeland", "time": "Day"},
@@ -198,7 +198,7 @@
 							},
 							"World2": {
 								"Level1": {
-									"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld", "liquid": 0, "metadata": {"BGStyle": "Pillars"}},
+									"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld", "liquid": 0},
 									"RoomType:BonusRoom": {"time": "Night"},
 									"RoomType:CoinHeaven": {"time": "Night"}
 								},
@@ -275,7 +275,7 @@
 									"RoomType:BonusRoom": {}
 								},
 								"Level2": {
-									"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld", "primary_bg": 0, "liquid": 0, "metadata": {"BGStyle": "Pillars"}},
+									"RoomType:Default": {"theme": "Overworld", "time": "Night", "music": "Overworld", "primary_bg": 0, "liquid": 0, "metadata": {"BGStyle": "TallHills"}},
 									"RoomType:BonusRoom": {}
 								},
 								"Level3": {"theme": "Overworld", "time": "Night", "music": "Overworld", "extra_bgm": "Athletic", "secondary_bg": 0},
@@ -359,6 +359,79 @@
 								"Level3": {
 									"default": {},
 									"Underwater": {"overlay_clouds": 1}
+								}
+							}
+						},
+						"SMBLL": {
+							"World1": {
+								"Level1": {},
+								"Level2": {
+									"RoomType:Default": {
+										"default": {"primary_bg": 0, "secondary_bg": 0, "metadata": {"BGStyle": "Waterfall"}},
+										"Underground": {}
+									},
+									"RoomType:BonusRoom": {},
+									"RoomType:PipeCutscene": {},
+									"RoomType:SublevelExit": {}
+								},
+								"Level3": {"primary_bg": 0, "secondary_bg": 0, "metadata": {"BGStyle": "Waterfall"}},
+								"Level4": {}
+							},
+							"World2": {},
+							"World3": {
+								"Level1": {},
+								"Level2": {
+									"RoomType:Default": {"overlay_clouds": 1},
+									"RoomType:PipeCutscene": {},
+									"RoomType:SublevelExit": {}
+								},
+								"Level3": {},
+								"Level4": {}
+							},
+							"World4": {
+								"Level1": {
+									"RoomType:Default": {},
+									"RoomType:BonusRoom": {"overlay_clouds": 1},
+									"RoomType:CoinHeaven": {}
+								},
+								"Level2": {},
+								"Level3": {},
+								"Level4": {}
+							},
+							"World5": {},
+							"World6": {
+								"Level1": {
+									"RoomType:Default": {},
+									"RoomType:BonusRoom": {"overlay_clouds": 1}
+								},
+								"Level2": {
+									"RoomType:Default": {"overlay_clouds": 1},
+									"RoomType:PipeCutscene": {},
+									"RoomType:SublevelExit": {}
+								},
+								"Level3": {},
+								"Level4": {}
+							},
+							"World7": {},
+							"World8": {
+								"Level1": {
+									"RoomType:Default": {"metadata": {"BGStyle": "TallHills"}},
+									"RoomType:BonusRoom": {"theme": "Underwater", "overlay_clouds": 1}
+								},
+								"Level2": {
+									"RoomType:Default": {
+										"default": {"metadata": {"BGStyle": "BrownHills", "NoCastleWalls": true}},
+										"Skyland": {}
+									},
+									"RoomType:BonusRoom": {}
+								},
+								"Level3": {
+									"RoomType:Default": {"metadata": {"NoCastleWalls": true}},
+									"RoomType:CoinHeaven": {}
+								},
+								"Level4": {
+									"default": {"metadata": {"BGStyle": "FinalCastle"}},
+									"CastleWater": {"music": "Castle", "overlay_clouds": 1}
 								}
 							}
 						}
