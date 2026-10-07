@@ -348,7 +348,7 @@
 		},
 		"Airship": {
 			"Day": {"source": "Airship.png"},
-			"Night": {"source": "SkyNight.png"}
+			"Night": {"source": "AirshipNight.png"}
 		},
 		"Bonus": {"source": "Bonus.png"}
 	}

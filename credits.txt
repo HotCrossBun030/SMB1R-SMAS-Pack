@@ -19,8 +19,10 @@ Terrain
 Deco
 - Hot Cross Bun
 - amer241
+- Crafink
 - hdtv
 - Heavenice
+- Zuryfurr
 
 Misc. Tiles
 - Hot Cross Bun
@@ -42,6 +44,7 @@ BGs
 
 Blocks
 - amer241
+- Crafink
 - Test/TSCM4790
 
 Enemies
