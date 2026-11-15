@@ -1,8 +1,0 @@
-{
-	"variations": {
-		"config:Classic Themes": {
-			"Disabled": {"source": "DayLevelIcons.png"},
-			"Enabled": {"source": "DayClassicLevelIcons.png"}
-		}
-	}
-}
