@@ -11,17 +11,27 @@
 			"source": "TitleScreenStars.png", 
 			"rect": [0, 0, 8, 8]
 		},
-		"Desert": {
+		"Underground": {
 			"source": "TitleScreenStars.png",
 			"rect": [8, 0, 8, 8]
 		},
-		"Snow": {
+		"GhostHouse": {"link": "Underground"},
+		"Desert": {
 			"source": "TitleScreenStars.png",
 			"rect": [16, 0, 8, 8]
 		},
-		"Jungle": {
+		"Snow": {
 			"source": "TitleScreenStars.png",
 			"rect": [24, 0, 8, 8]
-		}
+		},
+		"Jungle": {
+			"source": "TitleScreenStars.png",
+			"rect": [0, 8, 8, 8]
+		},
+		"Castle": {
+			"source": "TitleScreenStars.png",
+			"rect": [8, 8, 8, 8]
+		},
+		"CastleWater": {"link": "Castle"}
 	}
 }
